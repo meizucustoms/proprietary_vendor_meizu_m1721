@@ -374,8 +374,10 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
     vendor/meizu/m1721/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
     vendor/meizu/m1721/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
+    vendor/meizu/m1721/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/meizu/m1721/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/meizu/m1721/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
+    vendor/meizu/m1721/proprietary/lib/hw/audio.primary.msm8953.so:system/lib/hw/audio.primary.msm8953.so \
     vendor/meizu/m1721/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/meizu/m1721/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/meizu/m1721/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
@@ -407,6 +409,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so \
     vendor/meizu/m1721/proprietary/lib/soundfx/libreverbwrapper.so:system/lib/soundfx/libreverbwrapper.so \
     vendor/meizu/m1721/proprietary/lib/soundfx/libvisualizer.so:system/lib/soundfx/libvisualizer.so \
+    vendor/meizu/m1721/proprietary/lib64/hw/audio.primary.msm8953.so:system/lib64/hw/audio.primary.msm8953.so \
     vendor/meizu/m1721/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
     vendor/meizu/m1721/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
     vendor/meizu/m1721/proprietary/lib64/libgf_algo.so:system/lib64/libgf_algo.so \
