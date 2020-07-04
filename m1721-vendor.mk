@@ -383,21 +383,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/meizu/m1721/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/meizu/m1721/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
-    vendor/meizu/m1721/proprietary/lib/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
-    vendor/meizu/m1721/proprietary/lib/modules/backlight.ko:system/lib/modules/backlight.ko \
-    vendor/meizu/m1721/proprietary/lib/modules/br_netfilter.ko:system/lib/modules/br_netfilter.ko \
-    vendor/meizu/m1721/proprietary/lib/modules/evbug.ko:system/lib/modules/evbug.ko \
-    vendor/meizu/m1721/proprietary/lib/modules/generic_bl.ko:system/lib/modules/generic_bl.ko \
-    vendor/meizu/m1721/proprietary/lib/modules/lcd.ko:system/lib/modules/lcd.ko \
-    vendor/meizu/m1721/proprietary/lib/modules/mmc_block_test.ko:system/lib/modules/mmc_block_test.ko \
-    vendor/meizu/m1721/proprietary/lib/modules/mmc_test.ko:system/lib/modules/mmc_test.ko \
-    vendor/meizu/m1721/proprietary/lib/modules/pronto/pronto_wlan.ko:system/lib/modules/pronto/pronto_wlan.ko \
-    vendor/meizu/m1721/proprietary/lib/modules/rdbg.ko:system/lib/modules/rdbg.ko \
-    vendor/meizu/m1721/proprietary/lib/modules/spidev.ko:system/lib/modules/spidev.ko \
-    vendor/meizu/m1721/proprietary/lib/modules/test-iosched.ko:system/lib/modules/test-iosched.ko \
-    vendor/meizu/m1721/proprietary/lib/modules/ufs_test.ko:system/lib/modules/ufs_test.ko \
-    vendor/meizu/m1721/proprietary/lib/modules/wil6210.ko:system/lib/modules/wil6210.ko \
-    vendor/meizu/m1721/proprietary/lib/modules/wlan.ko:system/lib/modules/wlan.ko \
     vendor/meizu/m1721/proprietary/lib/soundfx/libaudiopreprocessing.so:system/lib/soundfx/libaudiopreprocessing.so \
     vendor/meizu/m1721/proprietary/lib/soundfx/libbundlewrapper.so:system/lib/soundfx/libbundlewrapper.so \
     vendor/meizu/m1721/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
@@ -2550,3 +2535,27 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/vendor/lib64/soundfx/libqcreverb.so:system/vendor/lib64/soundfx/libqcreverb.so \
     vendor/meizu/m1721/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
     vendor/meizu/m1721/proprietary/vendor/qcril.db:system/vendor/qcril.db
+    
+PRODUCT_PACKAGES += \
+	libts_detected_face_hal \
+	libts_face_beautify_hal \
+	qdcm_calib_data_nili7807d_txdkj_1080p_video_mode_dsi_panel \
+	qdcm_calib_data_hx8399c_tcl_1080p_video_mode_dsi_panel \
+	qdcm_calib_data_hx8399c_holitech_1080p_video_mode_dsi_panel \
+	libsdm-disp-apis \
+	libtime_genoff \
+	QtiTelephonyService \
+	TimeService \
+	datastatusnotification \
+	embms \
+	fastdormancy \
+	shutdownlistener \
+	CNEService \
+	QtiTetherService \
+	com.qualcomm.location \
+	qcrilmsgtunnel \
+	ims \
+	imssettings \
+	com.qti.location.sdk \
+	qcrilhook \
+	qti-telephony-common
