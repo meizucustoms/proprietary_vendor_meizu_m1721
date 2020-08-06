@@ -20,6 +20,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/bin/cnd:system/bin/cnd \
     vendor/meizu/m1721/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/meizu/m1721/proprietary/bin/energy-awareness:system/bin/energy-awareness \
+    vendor/meizu/m1721/proprietary/bin/fingerprintd:system/bin/fingerprintd \
     vendor/meizu/m1721/proprietary/bin/goodixfingerprintd:system/bin/goodixfingerprintd \
     vendor/meizu/m1721/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/meizu/m1721/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
@@ -385,7 +386,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/meizu/m1721/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/meizu/m1721/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
-    vendor/meizu/m1721/proprietary/lib/libqomxcore.so:system/lib/libqomxcore.so \
+    vendor/meizu/m1721/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/meizu/m1721/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/meizu/m1721/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/meizu/m1721/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
