@@ -381,6 +381,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/lib/hw/audio.primary.msm8953.so:system/lib/hw/audio.primary.msm8953.so \
     vendor/meizu/m1721/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
     vendor/meizu/m1721/proprietary/lib/hw/lights.msm8953.so:system/lib/hw/lights.msm8953.so \
+    vendor/meizu/m1721/proprietary/lib/hw/vibrator.default.so:system/lib/hw/vibrator.default.so \
     vendor/meizu/m1721/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/meizu/m1721/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/meizu/m1721/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
@@ -404,6 +405,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/lib64/hw/audio.primary.msm8953.so:system/lib64/hw/audio.primary.msm8953.so \
     vendor/meizu/m1721/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
     vendor/meizu/m1721/proprietary/lib64/hw/lights.msm8953.so:system/lib64/hw/lights.msm8953.so \
+    vendor/meizu/m1721/proprietary/lib64/hw/vibrator.default.so:system/lib64/hw/vibrator.default.so \
     vendor/meizu/m1721/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
     vendor/meizu/m1721/proprietary/lib64/libgf_algo.so:system/lib64/libgf_algo.so \
     vendor/meizu/m1721/proprietary/lib64/libgf_ca.so:system/lib64/libgf_ca.so \
@@ -423,8 +425,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/lib64/soundfx/libqcomvoiceprocessing.so:system/lib64/soundfx/libqcomvoiceprocessing.so \
     vendor/meizu/m1721/proprietary/lib64/soundfx/libreverbwrapper.so:system/lib64/soundfx/libreverbwrapper.so \
     vendor/meizu/m1721/proprietary/lib64/soundfx/libvisualizer.so:system/lib64/soundfx/libvisualizer.so \
-    vendor/meizu/m1721/proprietary/vendor/app/ims/lib/arm64/libimscamera_jni.so:system/vendor/app/ims/lib/arm64/libimscamera_jni.so \
-    vendor/meizu/m1721/proprietary/vendor/app/ims/lib/arm64/libimsmedia_jni.so:system/vendor/app/ims/lib/arm64/libimsmedia_jni.so \
     vendor/meizu/m1721/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/meizu/m1721/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/meizu/m1721/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
