@@ -33,7 +33,10 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/meizu/m1721/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/meizu/m1721/proprietary/bin/lowi-server:system/bin/lowi-server \
+    vendor/meizu/m1721/proprietary/bin/mm-audio-ftm:system/bin/mm-audio-ftm \
+    vendor/meizu/m1721/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/meizu/m1721/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/meizu/m1721/proprietary/bin/mm-vidc-omx-test:system/bin/mm-vidc-omx-test \
     vendor/meizu/m1721/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/meizu/m1721/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/meizu/m1721/proprietary/bin/pm-proxy:system/bin/pm-proxy \
@@ -43,6 +46,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/bin/radish:system/bin/radish \
     vendor/meizu/m1721/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/meizu/m1721/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
+    vendor/meizu/m1721/proprietary/bin/test_module_pproc:system/bin/test_module_pproc \
     vendor/meizu/m1721/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/meizu/m1721/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/meizu/m1721/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
@@ -265,10 +269,10 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
     vendor/meizu/m1721/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     vendor/meizu/m1721/proprietary/etc/flp.conf:system/etc/flp.conf \
-    vendor/meizu/m1721/proprietary/etc/ftm_test_config:system/etc/ftm_test_config \
     vendor/meizu/m1721/proprietary/etc/ftm_test_config_msm8953-sku3-tasha-snd-card:system/etc/ftm_test_config_msm8953-sku3-tasha-snd-card \
     vendor/meizu/m1721/proprietary/etc/ftm_test_config_mtp:system/etc/ftm_test_config_mtp \
     vendor/meizu/m1721/proprietary/etc/ftm_test_config_wcd9335:system/etc/ftm_test_config_wcd9335 \
+    vendor/meizu/m1721/proprietary/etc/ftm_test_config:system/etc/ftm_test_config \
     vendor/meizu/m1721/proprietary/etc/fts_eachopto.ini:system/etc/fts_eachopto.ini \
     vendor/meizu/m1721/proprietary/etc/fts_holitech.ini:system/etc/fts_holitech.ini \
     vendor/meizu/m1721/proprietary/etc/init.qcom.audio.sh:system/etc/init.qcom.audio.sh \
@@ -375,7 +379,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
     vendor/meizu/m1721/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
     vendor/meizu/m1721/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
-    vendor/meizu/m1721/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/meizu/m1721/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/meizu/m1721/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/meizu/m1721/proprietary/lib/hw/audio.primary.msm8953.so:system/lib/hw/audio.primary.msm8953.so \
@@ -385,12 +388,13 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/meizu/m1721/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/meizu/m1721/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    vendor/meizu/m1721/proprietary/lib/libmeizucamera.so:system/lib/libmeizucamera.so \
+    vendor/meizu/m1721/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
+    vendor/meizu/m1721/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/meizu/m1721/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/meizu/m1721/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/meizu/m1721/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/meizu/m1721/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
-    vendor/meizu/m1721/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/meizu/m1721/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/meizu/m1721/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-    vendor/meizu/m1721/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/meizu/m1721/proprietary/lib/soundfx/libaudiopreprocessing.so:system/lib/soundfx/libaudiopreprocessing.so \
     vendor/meizu/m1721/proprietary/lib/soundfx/libbundlewrapper.so:system/lib/soundfx/libbundlewrapper.so \
     vendor/meizu/m1721/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
@@ -413,6 +417,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/lib64/libgoodixfingerprintd_binder.so:system/lib64/libgoodixfingerprintd_binder.so \
     vendor/meizu/m1721/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/meizu/m1721/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
+    vendor/meizu/m1721/proprietary/lib64/libmeizucamera.so:system/lib64/libmeizucamera.so \
     vendor/meizu/m1721/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
     vendor/meizu/m1721/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
     vendor/meizu/m1721/proprietary/lib64/soundfx/libaudiopreprocessing.so:system/lib64/soundfx/libaudiopreprocessing.so \
@@ -1955,6 +1960,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/meizu/m1721/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
+    vendor/meizu/m1721/proprietary/vendor/lib/libllvd_smore.so:system/vendor/lib/libllvd_smore.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libllvm-qgl.so:system/vendor/lib/libllvm-qgl.so \
@@ -2543,27 +2549,27 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/vendor/lib64/soundfx/libqcreverb.so:system/vendor/lib64/soundfx/libqcreverb.so \
     vendor/meizu/m1721/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
     vendor/meizu/m1721/proprietary/vendor/qcril.db:system/vendor/qcril.db
-    
+
 PRODUCT_PACKAGES += \
-	libts_detected_face_hal \
-	libts_face_beautify_hal \
-	qdcm_calib_data_nili7807d_txdkj_1080p_video_mode_dsi_panel \
-	qdcm_calib_data_hx8399c_tcl_1080p_video_mode_dsi_panel \
-	qdcm_calib_data_hx8399c_holitech_1080p_video_mode_dsi_panel \
-	libsdm-disp-apis \
-	libtime_genoff \
-	QtiTelephonyService \
-	TimeService \
-	datastatusnotification \
-	embms \
-	fastdormancy \
-	shutdownlistener \
-	CNEService \
-	QtiTetherService \
-	com.qualcomm.location \
-	qcrilmsgtunnel \
-	ims \
-	imssettings \
-	com.qti.location.sdk \
-	qcrilhook \
-	qti-telephony-common
+    libsdm-disp-apis \
+    libtime_genoff \
+    libts_detected_face_hal \
+    libts_face_beautify_hal \
+    QtiTelephonyService \
+    TimeService \
+    datastatusnotification \
+    embms \
+    fastdormancy \
+    shutdownlistener \
+    CNEService \
+    QtiTetherService \
+    com.qualcomm.location \
+    qcrilmsgtunnel \
+    ims \
+    imssettings \
+    com.qti.location.sdk \
+    qcrilhook \
+    qti-telephony-common \
+    qdcm_calib_data_hx8399c_holitech_1080p_video_mode_dsi_panel \
+    qdcm_calib_data_hx8399c_tcl_1080p_video_mode_dsi_panel \
+    qdcm_calib_data_nili7807d_txdkj_1080p_video_mode_dsi_panel
