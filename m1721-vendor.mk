@@ -2246,7 +2246,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/vendor/lib/mmi_lcd.so:system/vendor/lib/mmi_lcd.so \
     vendor/meizu/m1721/proprietary/vendor/lib/mmi_light.so:system/vendor/lib/mmi_light.so \
     vendor/meizu/m1721/proprietary/vendor/lib/mmi_memory.so:system/vendor/lib/mmi_memory.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/mmi_nfc.so:system/vendor/lib/mmi_nfc.so \
     vendor/meizu/m1721/proprietary/vendor/lib/mmi_sensor.so:system/vendor/lib/mmi_sensor.so \
     vendor/meizu/m1721/proprietary/vendor/lib/mmi_sim.so:system/vendor/lib/mmi_sim.so \
     vendor/meizu/m1721/proprietary/vendor/lib/mmi_speaker_calibration.so:system/vendor/lib/mmi_speaker_calibration.so \
@@ -2533,7 +2532,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/vendor/lib64/mmi_lcd.so:system/vendor/lib64/mmi_lcd.so \
     vendor/meizu/m1721/proprietary/vendor/lib64/mmi_light.so:system/vendor/lib64/mmi_light.so \
     vendor/meizu/m1721/proprietary/vendor/lib64/mmi_memory.so:system/vendor/lib64/mmi_memory.so \
-    vendor/meizu/m1721/proprietary/vendor/lib64/mmi_nfc.so:system/vendor/lib64/mmi_nfc.so \
     vendor/meizu/m1721/proprietary/vendor/lib64/mmi_sensor.so:system/vendor/lib64/mmi_sensor.so \
     vendor/meizu/m1721/proprietary/vendor/lib64/mmi_sim.so:system/vendor/lib64/mmi_sim.so \
     vendor/meizu/m1721/proprietary/vendor/lib64/mmi_speaker_calibration.so:system/vendor/lib64/mmi_speaker_calibration.so \
