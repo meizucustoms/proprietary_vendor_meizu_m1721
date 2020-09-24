@@ -386,14 +386,22 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/lib/hw/lights.msm8953.so:system/lib/hw/lights.msm8953.so \
     vendor/meizu/m1721/proprietary/lib/hw/vibrator.default.so:system/lib/hw/vibrator.default.so \
     vendor/meizu/m1721/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
+    vendor/meizu/m1721/proprietary/lib/libarcsoft_makeup.so:system/lib/libarcsoft_makeup.so \
+    vendor/meizu/m1721/proprietary/lib/libcam.common.meizu.platform.so:system/lib/libcam.common.meizu.platform.so \
+    vendor/meizu/m1721/proprietary/lib/libcam.common.meizu.so:system/lib/libcam.common.meizu.so \
+    vendor/meizu/m1721/proprietary/lib/libfilter_effects.so:system/lib/libfilter_effects.so \
     vendor/meizu/m1721/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/meizu/m1721/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    vendor/meizu/m1721/proprietary/lib/libmakeup_style.so:system/lib/libmakeup_style.so \
     vendor/meizu/m1721/proprietary/lib/libmeizucamera.so:system/lib/libmeizucamera.so \
     vendor/meizu/m1721/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/meizu/m1721/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/meizu/m1721/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/meizu/m1721/proprietary/lib/libphoto_timestamp.so:system/lib/libphoto_timestamp.so \
     vendor/meizu/m1721/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/meizu/m1721/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
+    vendor/meizu/m1721/proprietary/lib/libvfb_render.so:system/lib/libvfb_render.so \
+    vendor/meizu/m1721/proprietary/lib/libvmp_render.so:system/lib/libvmp_render.so \
     vendor/meizu/m1721/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/meizu/m1721/proprietary/lib/soundfx/libaudiopreprocessing.so:system/lib/soundfx/libaudiopreprocessing.so \
     vendor/meizu/m1721/proprietary/lib/soundfx/libbundlewrapper.so:system/lib/soundfx/libbundlewrapper.so \
