@@ -92,10 +92,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/etc/camera/imx318_chromatix.xml:system/etc/camera/imx318_chromatix.xml \
     vendor/meizu/m1721/proprietary/etc/camera/imx362_chromatix.xml:system/etc/camera/imx362_chromatix.xml \
     vendor/meizu/m1721/proprietary/etc/camera/imx362_chromatix_bear.xml:system/etc/camera/imx362_chromatix_bear.xml \
-    vendor/meizu/m1721/proprietary/etc/camera/imx362_primax_ak7374.xml:system/etc/camera/imx362_primax_ak7374.xml \
-    vendor/meizu/m1721/proprietary/etc/camera/imx362_primax_lc898217.xml:system/etc/camera/imx362_primax_lc898217.xml \
-    vendor/meizu/m1721/proprietary/etc/camera/imx362_qtech_ak7374.xml:system/etc/camera/imx362_qtech_ak7374.xml \
-    vendor/meizu/m1721/proprietary/etc/camera/imx362_qtech_lc898217.xml:system/etc/camera/imx362_qtech_lc898217.xml \
     vendor/meizu/m1721/proprietary/etc/camera/imx378_chromatix.xml:system/etc/camera/imx378_chromatix.xml \
     vendor/meizu/m1721/proprietary/etc/camera/ov13850_chromatix.xml:system/etc/camera/ov13850_chromatix.xml \
     vendor/meizu/m1721/proprietary/etc/camera/ov13850_q13v06k_chromatix.xml:system/etc/camera/ov13850_q13v06k_chromatix.xml \
@@ -111,10 +107,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/etc/camera/ov8865_chromatix.xml:system/etc/camera/ov8865_chromatix.xml \
     vendor/meizu/m1721/proprietary/etc/camera/s5k2l7_8953_chromatix.xml:system/etc/camera/s5k2l7_8953_chromatix.xml \
     vendor/meizu/m1721/proprietary/etc/camera/s5k2l7_chromatix.xml:system/etc/camera/s5k2l7_chromatix.xml \
-    vendor/meizu/m1721/proprietary/etc/camera/s5k2l7_primax_ak7374.xml:system/etc/camera/s5k2l7_primax_ak7374.xml \
-    vendor/meizu/m1721/proprietary/etc/camera/s5k2l7_primax_lc898217.xml:system/etc/camera/s5k2l7_primax_lc898217.xml \
-    vendor/meizu/m1721/proprietary/etc/camera/s5k2l7_qtech_ak7374.xml:system/etc/camera/s5k2l7_qtech_ak7374.xml \
-    vendor/meizu/m1721/proprietary/etc/camera/s5k2l7_qtech_lc898217.xml:system/etc/camera/s5k2l7_qtech_lc898217.xml \
     vendor/meizu/m1721/proprietary/etc/camera/s5k3l8_chromatix.xml:system/etc/camera/s5k3l8_chromatix.xml \
     vendor/meizu/m1721/proprietary/etc/camera/s5k3l8_f3l8yam_chromatix.xml:system/etc/camera/s5k3l8_f3l8yam_chromatix.xml \
     vendor/meizu/m1721/proprietary/etc/camera/s5k3l8_mono_chromatix.xml:system/etc/camera/s5k3l8_mono_chromatix.xml \
@@ -123,12 +115,8 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/etc/camera/s5k3m2xx_chromatix.xml:system/etc/camera/s5k3m2xx_chromatix.xml \
     vendor/meizu/m1721/proprietary/etc/camera/s5k3p3_chromatix.xml:system/etc/camera/s5k3p3_chromatix.xml \
     vendor/meizu/m1721/proprietary/etc/camera/s5k3p3sm_chromatix.xml:system/etc/camera/s5k3p3sm_chromatix.xml \
-    vendor/meizu/m1721/proprietary/etc/camera/s5k3p3sm_qtech_chromatix.xml:system/etc/camera/s5k3p3sm_qtech_chromatix.xml \
-    vendor/meizu/m1721/proprietary/etc/camera/s5k3p3sm_stech_chromatix.xml:system/etc/camera/s5k3p3sm_stech_chromatix.xml \
     vendor/meizu/m1721/proprietary/etc/camera/s5k4e8_chromatix.xml:system/etc/camera/s5k4e8_chromatix.xml \
     vendor/meizu/m1721/proprietary/etc/camera/s5k4e8_dongju_chromatix.xml:system/etc/camera/s5k4e8_dongju_chromatix.xml \
-    vendor/meizu/m1721/proprietary/etc/camera/s5k4e8_primax_chromatix.xml:system/etc/camera/s5k4e8_primax_chromatix.xml \
-    vendor/meizu/m1721/proprietary/etc/camera/s5k4e8_qtech_chromatix.xml:system/etc/camera/s5k4e8_qtech_chromatix.xml \
     vendor/meizu/m1721/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/meizu/m1721/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/meizu/m1721/proprietary/etc/cne/wqeclient/ATT/ATT_profile1.xml:system/etc/cne/wqeclient/ATT/ATT_profile1.xml \
@@ -268,66 +256,8 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/etc/firmware/widevine.b06:system/etc/firmware/widevine.b06 \
     vendor/meizu/m1721/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
     vendor/meizu/m1721/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
-    vendor/meizu/m1721/proprietary/etc/flp.conf:system/etc/flp.conf \
-    vendor/meizu/m1721/proprietary/etc/ftm_test_config_msm8953-sku3-tasha-snd-card:system/etc/ftm_test_config_msm8953-sku3-tasha-snd-card \
-    vendor/meizu/m1721/proprietary/etc/ftm_test_config_mtp:system/etc/ftm_test_config_mtp \
-    vendor/meizu/m1721/proprietary/etc/ftm_test_config_wcd9335:system/etc/ftm_test_config_wcd9335 \
-    vendor/meizu/m1721/proprietary/etc/ftm_test_config:system/etc/ftm_test_config \
-    vendor/meizu/m1721/proprietary/etc/fts_eachopto.ini:system/etc/fts_eachopto.ini \
-    vendor/meizu/m1721/proprietary/etc/fts_holitech.ini:system/etc/fts_holitech.ini \
-    vendor/meizu/m1721/proprietary/etc/init.qcom.audio.sh:system/etc/init.qcom.audio.sh \
-    vendor/meizu/m1721/proprietary/etc/media_codecs_8953_v1.xml:system/etc/media_codecs_8953_v1.xml \
-    vendor/meizu/m1721/proprietary/etc/media_codecs_performance_8953_v1.xml:system/etc/media_codecs_performance_8953_v1.xml \
-    vendor/meizu/m1721/proprietary/etc/media_profiles_8953_v1.xml:system/etc/media_profiles_8953_v1.xml \
-    vendor/meizu/m1721/proprietary/etc/mixer_paths_mtp.xml:system/etc/mixer_paths_mtp.xml \
-    vendor/meizu/m1721/proprietary/etc/mixer_paths_qrd_sku3.xml:system/etc/mixer_paths_qrd_sku3.xml \
-    vendor/meizu/m1721/proprietary/etc/mixer_paths_qrd_skuh.xml:system/etc/mixer_paths_qrd_skuh.xml \
-    vendor/meizu/m1721/proprietary/etc/mixer_paths_qrd_skuhf.xml:system/etc/mixer_paths_qrd_skuhf.xml \
-    vendor/meizu/m1721/proprietary/etc/mixer_paths_qrd_skui.xml:system/etc/mixer_paths_qrd_skui.xml \
-    vendor/meizu/m1721/proprietary/etc/mixer_paths_qrd_skum.xml:system/etc/mixer_paths_qrd_skum.xml \
-    vendor/meizu/m1721/proprietary/etc/mixer_paths_qrd_skun.xml:system/etc/mixer_paths_qrd_skun.xml \
-    vendor/meizu/m1721/proprietary/etc/mixer_paths_skuk.xml:system/etc/mixer_paths_skuk.xml \
-    vendor/meizu/m1721/proprietary/etc/mixer_paths_wcd9306.xml:system/etc/mixer_paths_wcd9306.xml \
-    vendor/meizu/m1721/proprietary/etc/mixer_paths_wcd9326.xml:system/etc/mixer_paths_wcd9326.xml \
-    vendor/meizu/m1721/proprietary/etc/mixer_paths_wcd9330.xml:system/etc/mixer_paths_wcd9330.xml \
-    vendor/meizu/m1721/proprietary/etc/mixer_paths_wcd9335.xml:system/etc/mixer_paths_wcd9335.xml \
     vendor/meizu/m1721/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/android.hardware.bluetooth.xml:system/etc/permissions/android.hardware.bluetooth.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/android.hardware.bluetooth_le.xml:system/etc/permissions/android.hardware.bluetooth_le.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/android.hardware.camera.flash-autofocus.xml:system/etc/permissions/android.hardware.camera.flash-autofocus.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/android.hardware.camera.full.xml:system/etc/permissions/android.hardware.camera.full.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/android.hardware.camera.raw.xml:system/etc/permissions/android.hardware.camera.raw.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/android.hardware.fingerprint.xml:system/etc/permissions/android.hardware.fingerprint.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/android.hardware.location.gps.xml:system/etc/permissions/android.hardware.location.gps.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/android.hardware.opengles.aep.xml:system/etc/permissions/android.hardware.opengles.aep.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/android.hardware.sensor.accelerometer.xml:system/etc/permissions/android.hardware.sensor.accelerometer.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/android.hardware.sensor.compass.xml:system/etc/permissions/android.hardware.sensor.compass.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/android.hardware.sensor.gyroscope.xml:system/etc/permissions/android.hardware.sensor.gyroscope.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/android.hardware.sensor.light.xml:system/etc/permissions/android.hardware.sensor.light.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/android.hardware.sensor.proximity.xml:system/etc/permissions/android.hardware.sensor.proximity.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/android.hardware.sensor.stepcounter.xml:system/etc/permissions/android.hardware.sensor.stepcounter.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/android.hardware.sensor.stepdetector.xml:system/etc/permissions/android.hardware.sensor.stepdetector.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/android.hardware.telephony.cdma.xml:system/etc/permissions/android.hardware.telephony.cdma.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml:system/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/android.hardware.usb.accessory.xml:system/etc/permissions/android.hardware.usb.accessory.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/android.hardware.usb.host.xml:system/etc/permissions/android.hardware.usb.host.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/android.hardware.vulkan.level-0.xml:system/etc/permissions/android.hardware.vulkan.level-0.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/android.hardware.vulkan.version-1_0_3.xml:system/etc/permissions/android.hardware.vulkan.version-1_0_3.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/android.hardware.wifi.direct.xml:system/etc/permissions/android.hardware.wifi.direct.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/android.hardware.wifi.xml:system/etc/permissions/android.hardware.wifi.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/android.software.live_wallpaper.xml:system/etc/permissions/android.software.live_wallpaper.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/android.software.midi.xml:system/etc/permissions/android.software.midi.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/android.software.webview.xml:system/etc/permissions/android.software.webview.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/btmultisim.xml:system/etc/permissions/btmultisim.xml \
     vendor/meizu/m1721/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/com.android.location.provider.xml:system/etc/permissions/com.android.location.provider.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/com.android.media.remotedisplay.xml:system/etc/permissions/com.android.media.remotedisplay.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/com.android.mediadrm.signer.xml:system/etc/permissions/com.android.mediadrm.signer.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
     vendor/meizu/m1721/proprietary/etc/permissions/com.meizu.camera.xml:system/etc/permissions/com.meizu.camera.xml \
     vendor/meizu/m1721/proprietary/etc/permissions/com.qrd.wappush.xml:system/etc/permissions/com.qrd.wappush.xml \
     vendor/meizu/m1721/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
@@ -340,41 +270,27 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/meizu/m1721/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/meizu/m1721/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/flyme.hardware.screen.bluelightreduction.xml:system/etc/permissions/flyme.hardware.screen.bluelightreduction.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml \
     vendor/meizu/m1721/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/meizu/m1721/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/meizu/m1721/proprietary/etc/permissions/lpa.xml:system/etc/permissions/lpa.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/org.ifaa.android.manager.permissions.xml:system/etc/permissions/org.ifaa.android.manager.permissions.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/org.simalliance.openmobileapi.xml:system/etc/permissions/org.simalliance.openmobileapi.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/platform.xml:system/etc/permissions/platform.xml \
     vendor/meizu/m1721/proprietary/etc/permissions/qcom_logkit.xml:system/etc/permissions/qcom_logkit.xml \
     vendor/meizu/m1721/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/meizu/m1721/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/meizu/m1721/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/rcs_service_aidl.xml:system/etc/permissions/rcs_service_aidl.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/rcs_service_api.xml:system/etc/permissions/rcs_service_api.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/rcscommon.xml:system/etc/permissions/rcscommon.xml \
     vendor/meizu/m1721/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/meizu/m1721/proprietary/etc/permissions/uimremoteclient.xml:system/etc/permissions/uimremoteclient.xml \
-    vendor/meizu/m1721/proprietary/etc/qca6234-service.sh:system/etc/qca6234-service.sh \
-    vendor/meizu/m1721/proprietary/etc/sound_trigger_mixer_paths_wcd9306.xml:system/etc/sound_trigger_mixer_paths_wcd9306.xml \
-    vendor/meizu/m1721/proprietary/etc/sound_trigger_mixer_paths_wcd9330.xml:system/etc/sound_trigger_mixer_paths_wcd9330.xml \
-    vendor/meizu/m1721/proprietary/etc/sound_trigger_mixer_paths_wcd9335.xml:system/etc/sound_trigger_mixer_paths_wcd9335.xml \
-    vendor/meizu/m1721/proprietary/etc/spn-conf.xml:system/etc/spn-conf.xml \
     vendor/meizu/m1721/proprietary/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
     vendor/meizu/m1721/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
-    vendor/meizu/m1721/proprietary/etc/svi_config.xml:system/etc/svi_config.xml \
-    vendor/meizu/m1721/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/meizu/m1721/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/meizu/m1721/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/meizu/m1721/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/meizu/m1721/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
-    vendor/meizu/m1721/proprietary/framework/com.meizu.camera.jar:system/framework/com.meizu.camera.jar \
     vendor/meizu/m1721/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/meizu/m1721/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/meizu/m1721/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar \
     vendor/meizu/m1721/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
+    vendor/meizu/m1721/proprietary/framework/com.quicinc.wbc.jar:system/framework/com.quicinc.wbc.jar \
+    vendor/meizu/m1721/proprietary/framework/com.quicinc.wbcservice.jar:system/framework/com.quicinc.wbcservice.jar \
     vendor/meizu/m1721/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/meizu/m1721/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
     vendor/meizu/m1721/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
@@ -383,17 +299,11 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/meizu/m1721/proprietary/lib/hw/audio.primary.msm8953.so:system/lib/hw/audio.primary.msm8953.so \
     vendor/meizu/m1721/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
-    vendor/meizu/m1721/proprietary/lib/hw/lights.msm8953.so:system/lib/hw/lights.msm8953.so \
-    vendor/meizu/m1721/proprietary/lib/hw/vibrator.default.so:system/lib/hw/vibrator.default.so \
     vendor/meizu/m1721/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
-    vendor/meizu/m1721/proprietary/lib/libarcsoft_makeup.so:system/lib/libarcsoft_makeup.so \
-    vendor/meizu/m1721/proprietary/lib/libcam.common.meizu.platform.so:system/lib/libcam.common.meizu.platform.so \
-    vendor/meizu/m1721/proprietary/lib/libcam.common.meizu.so:system/lib/libcam.common.meizu.so \
     vendor/meizu/m1721/proprietary/lib/libfilter_effects.so:system/lib/libfilter_effects.so \
     vendor/meizu/m1721/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/meizu/m1721/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/meizu/m1721/proprietary/lib/libmakeup_style.so:system/lib/libmakeup_style.so \
-    vendor/meizu/m1721/proprietary/lib/libmeizucamera.so:system/lib/libmeizucamera.so \
+    vendor/meizu/m1721/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
     vendor/meizu/m1721/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/meizu/m1721/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/meizu/m1721/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
@@ -405,7 +315,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/meizu/m1721/proprietary/lib/soundfx/libaudiopreprocessing.so:system/lib/soundfx/libaudiopreprocessing.so \
     vendor/meizu/m1721/proprietary/lib/soundfx/libbundlewrapper.so:system/lib/soundfx/libbundlewrapper.so \
-    vendor/meizu/m1721/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
     vendor/meizu/m1721/proprietary/lib/soundfx/libdownmix.so:system/lib/soundfx/libdownmix.so \
     vendor/meizu/m1721/proprietary/lib/soundfx/libeffectproxy.so:system/lib/soundfx/libeffectproxy.so \
     vendor/meizu/m1721/proprietary/lib/soundfx/libldnhncr.so:system/lib/soundfx/libldnhncr.so \
@@ -416,8 +325,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/lib/soundfx/libvisualizer.so:system/lib/soundfx/libvisualizer.so \
     vendor/meizu/m1721/proprietary/lib64/hw/audio.primary.msm8953.so:system/lib64/hw/audio.primary.msm8953.so \
     vendor/meizu/m1721/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
-    vendor/meizu/m1721/proprietary/lib64/hw/lights.msm8953.so:system/lib64/hw/lights.msm8953.so \
-    vendor/meizu/m1721/proprietary/lib64/hw/vibrator.default.so:system/lib64/hw/vibrator.default.so \
     vendor/meizu/m1721/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
     vendor/meizu/m1721/proprietary/lib64/libgf_algo.so:system/lib64/libgf_algo.so \
     vendor/meizu/m1721/proprietary/lib64/libgf_ca.so:system/lib64/libgf_ca.so \
@@ -425,7 +332,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/lib64/libgoodixfingerprintd_binder.so:system/lib64/libgoodixfingerprintd_binder.so \
     vendor/meizu/m1721/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/meizu/m1721/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
-    vendor/meizu/m1721/proprietary/lib64/libmeizucamera.so:system/lib64/libmeizucamera.so \
     vendor/meizu/m1721/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
     vendor/meizu/m1721/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
     vendor/meizu/m1721/proprietary/lib64/soundfx/libaudiopreprocessing.so:system/lib64/soundfx/libaudiopreprocessing.so \
@@ -488,7 +394,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/vendor/lib/libactuator_ad5823.so:system/vendor/lib/libactuator_ad5823.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libactuator_ak7345.so:system/vendor/lib/libactuator_ak7345.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libactuator_ak7371.so:system/vendor/lib/libactuator_ak7371.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libactuator_ak7371_primax.so:system/vendor/lib/libactuator_ak7371_primax.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libactuator_ak7374.so:system/vendor/lib/libactuator_ak7374.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libactuator_bu64244gwz.so:system/vendor/lib/libactuator_bu64244gwz.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libactuator_bu64297.so:system/vendor/lib/libactuator_bu64297.so \
@@ -509,9 +414,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/vendor/lib/libadsp_default_listener.so:system/vendor/lib/libadsp_default_listener.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libarcsoft_dualcam_refocus.so:system/vendor/lib/libarcsoft_dualcam_refocus.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libarcsoft_high_dynamic_range.so:system/vendor/lib/libarcsoft_high_dynamic_range.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libarcsoft_low_light_shot.so:system/vendor/lib/libarcsoft_low_light_shot.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libaudiodevarb.so:system/vendor/lib/libaudiodevarb.so \
@@ -957,163 +859,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_postproc_bear.so:system/vendor/lib/libchromatix_imx362_postproc_bear.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_preview.so:system/vendor/lib/libchromatix_imx362_preview.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_preview_bear.so:system/vendor/lib/libchromatix_imx362_preview_bear.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_ak7374_1080p_preview_3a.so:system/vendor/lib/libchromatix_imx362_primax_ak7374_1080p_preview_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_ak7374_1080p_video_3a.so:system/vendor/lib/libchromatix_imx362_primax_ak7374_1080p_video_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_ak7374_4k_preview_3a.so:system/vendor/lib/libchromatix_imx362_primax_ak7374_4k_preview_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_ak7374_4k_video_3a.so:system/vendor/lib/libchromatix_imx362_primax_ak7374_4k_video_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_ak7374_common.so:system/vendor/lib/libchromatix_imx362_primax_ak7374_common.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_ak7374_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx362_primax_ak7374_cpp_hfr_120.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_ak7374_cpp_hfr_240.so:system/vendor/lib/libchromatix_imx362_primax_ak7374_cpp_hfr_240.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_ak7374_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx362_primax_ak7374_cpp_hfr_60.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_ak7374_cpp_liveshot.so:system/vendor/lib/libchromatix_imx362_primax_ak7374_cpp_liveshot.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_ak7374_cpp_preview.so:system/vendor/lib/libchromatix_imx362_primax_ak7374_cpp_preview.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_ak7374_cpp_snapshot.so:system/vendor/lib/libchromatix_imx362_primax_ak7374_cpp_snapshot.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_ak7374_cpp_snapshot_downscale.so:system/vendor/lib/libchromatix_imx362_primax_ak7374_cpp_snapshot_downscale.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_ak7374_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx362_primax_ak7374_cpp_snapshot_hdr.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_ak7374_cpp_snapshot_upscale.so:system/vendor/lib/libchromatix_imx362_primax_ak7374_cpp_snapshot_upscale.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_ak7374_cpp_video.so:system/vendor/lib/libchromatix_imx362_primax_ak7374_cpp_video.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_ak7374_cpp_video_4k.so:system/vendor/lib/libchromatix_imx362_primax_ak7374_cpp_video_4k.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_ak7374_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx362_primax_ak7374_cpp_video_hdr.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_ak7374_default_preview_3a.so:system/vendor/lib/libchromatix_imx362_primax_ak7374_default_preview_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_ak7374_default_video.so:system/vendor/lib/libchromatix_imx362_primax_ak7374_default_video.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_ak7374_default_video_3a.so:system/vendor/lib/libchromatix_imx362_primax_ak7374_default_video_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_ak7374_default_video_manual_exposure.so:system/vendor/lib/libchromatix_imx362_primax_ak7374_default_video_manual_exposure.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_ak7374_fullsize_preview_3a.so:system/vendor/lib/libchromatix_imx362_primax_ak7374_fullsize_preview_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_ak7374_fullsize_video_3a.so:system/vendor/lib/libchromatix_imx362_primax_ak7374_fullsize_video_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_ak7374_hdr_snapshot_3a.so:system/vendor/lib/libchromatix_imx362_primax_ak7374_hdr_snapshot_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_ak7374_hdr_video_3a.so:system/vendor/lib/libchromatix_imx362_primax_ak7374_hdr_video_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_ak7374_hfr_120.so:system/vendor/lib/libchromatix_imx362_primax_ak7374_hfr_120.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_ak7374_hfr_120_3a.so:system/vendor/lib/libchromatix_imx362_primax_ak7374_hfr_120_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_ak7374_hfr_240.so:system/vendor/lib/libchromatix_imx362_primax_ak7374_hfr_240.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_ak7374_hfr_240_3a.so:system/vendor/lib/libchromatix_imx362_primax_ak7374_hfr_240_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_ak7374_hfr_60.so:system/vendor/lib/libchromatix_imx362_primax_ak7374_hfr_60.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_ak7374_hfr_60_3a.so:system/vendor/lib/libchromatix_imx362_primax_ak7374_hfr_60_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_ak7374_postproc.so:system/vendor/lib/libchromatix_imx362_primax_ak7374_postproc.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_ak7374_preview.so:system/vendor/lib/libchromatix_imx362_primax_ak7374_preview.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_ak7374_snapshot.so:system/vendor/lib/libchromatix_imx362_primax_ak7374_snapshot.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_ak7374_snapshot_hdr.so:system/vendor/lib/libchromatix_imx362_primax_ak7374_snapshot_hdr.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_ak7374_snapshot_manual_exposure.so:system/vendor/lib/libchromatix_imx362_primax_ak7374_snapshot_manual_exposure.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_ak7374_video_4k.so:system/vendor/lib/libchromatix_imx362_primax_ak7374_video_4k.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_ak7374_video_4k_manual_exposure.so:system/vendor/lib/libchromatix_imx362_primax_ak7374_video_4k_manual_exposure.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_ak7374_video_hdr.so:system/vendor/lib/libchromatix_imx362_primax_ak7374_video_hdr.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_lc898217_1080p_preview_3a.so:system/vendor/lib/libchromatix_imx362_primax_lc898217_1080p_preview_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_lc898217_1080p_video_3a.so:system/vendor/lib/libchromatix_imx362_primax_lc898217_1080p_video_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_lc898217_4k_preview_3a.so:system/vendor/lib/libchromatix_imx362_primax_lc898217_4k_preview_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_lc898217_4k_video_3a.so:system/vendor/lib/libchromatix_imx362_primax_lc898217_4k_video_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_lc898217_common.so:system/vendor/lib/libchromatix_imx362_primax_lc898217_common.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_lc898217_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx362_primax_lc898217_cpp_hfr_120.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_lc898217_cpp_hfr_240.so:system/vendor/lib/libchromatix_imx362_primax_lc898217_cpp_hfr_240.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_lc898217_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx362_primax_lc898217_cpp_hfr_60.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_lc898217_cpp_liveshot.so:system/vendor/lib/libchromatix_imx362_primax_lc898217_cpp_liveshot.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_lc898217_cpp_preview.so:system/vendor/lib/libchromatix_imx362_primax_lc898217_cpp_preview.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_lc898217_cpp_snapshot.so:system/vendor/lib/libchromatix_imx362_primax_lc898217_cpp_snapshot.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_lc898217_cpp_snapshot_downscale.so:system/vendor/lib/libchromatix_imx362_primax_lc898217_cpp_snapshot_downscale.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_lc898217_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx362_primax_lc898217_cpp_snapshot_hdr.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_lc898217_cpp_snapshot_upscale.so:system/vendor/lib/libchromatix_imx362_primax_lc898217_cpp_snapshot_upscale.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_lc898217_cpp_video.so:system/vendor/lib/libchromatix_imx362_primax_lc898217_cpp_video.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_lc898217_cpp_video_4k.so:system/vendor/lib/libchromatix_imx362_primax_lc898217_cpp_video_4k.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_lc898217_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx362_primax_lc898217_cpp_video_hdr.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_lc898217_default_preview_3a.so:system/vendor/lib/libchromatix_imx362_primax_lc898217_default_preview_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_lc898217_default_video.so:system/vendor/lib/libchromatix_imx362_primax_lc898217_default_video.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_lc898217_default_video_3a.so:system/vendor/lib/libchromatix_imx362_primax_lc898217_default_video_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_lc898217_default_video_manual_exposure.so:system/vendor/lib/libchromatix_imx362_primax_lc898217_default_video_manual_exposure.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_lc898217_fullsize_preview_3a.so:system/vendor/lib/libchromatix_imx362_primax_lc898217_fullsize_preview_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_lc898217_fullsize_video_3a.so:system/vendor/lib/libchromatix_imx362_primax_lc898217_fullsize_video_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_lc898217_hdr_snapshot_3a.so:system/vendor/lib/libchromatix_imx362_primax_lc898217_hdr_snapshot_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_lc898217_hdr_video_3a.so:system/vendor/lib/libchromatix_imx362_primax_lc898217_hdr_video_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_lc898217_hfr_120.so:system/vendor/lib/libchromatix_imx362_primax_lc898217_hfr_120.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_lc898217_hfr_120_3a.so:system/vendor/lib/libchromatix_imx362_primax_lc898217_hfr_120_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_lc898217_hfr_240.so:system/vendor/lib/libchromatix_imx362_primax_lc898217_hfr_240.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_lc898217_hfr_240_3a.so:system/vendor/lib/libchromatix_imx362_primax_lc898217_hfr_240_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_lc898217_hfr_60.so:system/vendor/lib/libchromatix_imx362_primax_lc898217_hfr_60.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_lc898217_hfr_60_3a.so:system/vendor/lib/libchromatix_imx362_primax_lc898217_hfr_60_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_lc898217_postproc.so:system/vendor/lib/libchromatix_imx362_primax_lc898217_postproc.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_lc898217_preview.so:system/vendor/lib/libchromatix_imx362_primax_lc898217_preview.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_lc898217_snapshot.so:system/vendor/lib/libchromatix_imx362_primax_lc898217_snapshot.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_lc898217_snapshot_hdr.so:system/vendor/lib/libchromatix_imx362_primax_lc898217_snapshot_hdr.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_lc898217_snapshot_manual_exposure.so:system/vendor/lib/libchromatix_imx362_primax_lc898217_snapshot_manual_exposure.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_lc898217_video_4k.so:system/vendor/lib/libchromatix_imx362_primax_lc898217_video_4k.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_lc898217_video_4k_manual_exposure.so:system/vendor/lib/libchromatix_imx362_primax_lc898217_video_4k_manual_exposure.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_primax_lc898217_video_hdr.so:system/vendor/lib/libchromatix_imx362_primax_lc898217_video_hdr.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_ak7374_1080p_preview_3a.so:system/vendor/lib/libchromatix_imx362_qtech_ak7374_1080p_preview_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_ak7374_1080p_video_3a.so:system/vendor/lib/libchromatix_imx362_qtech_ak7374_1080p_video_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_ak7374_4k_preview_3a.so:system/vendor/lib/libchromatix_imx362_qtech_ak7374_4k_preview_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_ak7374_4k_video_3a.so:system/vendor/lib/libchromatix_imx362_qtech_ak7374_4k_video_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_ak7374_common.so:system/vendor/lib/libchromatix_imx362_qtech_ak7374_common.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_ak7374_common_preview.so:system/vendor/lib/libchromatix_imx362_qtech_ak7374_common_preview.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_ak7374_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx362_qtech_ak7374_cpp_hfr_120.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_ak7374_cpp_hfr_240.so:system/vendor/lib/libchromatix_imx362_qtech_ak7374_cpp_hfr_240.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_ak7374_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx362_qtech_ak7374_cpp_hfr_60.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_ak7374_cpp_liveshot.so:system/vendor/lib/libchromatix_imx362_qtech_ak7374_cpp_liveshot.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_ak7374_cpp_preview.so:system/vendor/lib/libchromatix_imx362_qtech_ak7374_cpp_preview.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_ak7374_cpp_snapshot.so:system/vendor/lib/libchromatix_imx362_qtech_ak7374_cpp_snapshot.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_ak7374_cpp_snapshot_downscale.so:system/vendor/lib/libchromatix_imx362_qtech_ak7374_cpp_snapshot_downscale.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_ak7374_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx362_qtech_ak7374_cpp_snapshot_hdr.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_ak7374_cpp_snapshot_upscale.so:system/vendor/lib/libchromatix_imx362_qtech_ak7374_cpp_snapshot_upscale.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_ak7374_cpp_video.so:system/vendor/lib/libchromatix_imx362_qtech_ak7374_cpp_video.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_ak7374_cpp_video_4k.so:system/vendor/lib/libchromatix_imx362_qtech_ak7374_cpp_video_4k.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_ak7374_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx362_qtech_ak7374_cpp_video_hdr.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_ak7374_default_preview_3a.so:system/vendor/lib/libchromatix_imx362_qtech_ak7374_default_preview_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_ak7374_default_video.so:system/vendor/lib/libchromatix_imx362_qtech_ak7374_default_video.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_ak7374_default_video_3a.so:system/vendor/lib/libchromatix_imx362_qtech_ak7374_default_video_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_ak7374_default_video_manual_exposure.so:system/vendor/lib/libchromatix_imx362_qtech_ak7374_default_video_manual_exposure.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_ak7374_fullsize_preview_3a.so:system/vendor/lib/libchromatix_imx362_qtech_ak7374_fullsize_preview_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_ak7374_fullsize_video_3a.so:system/vendor/lib/libchromatix_imx362_qtech_ak7374_fullsize_video_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_ak7374_hdr_snapshot_3a.so:system/vendor/lib/libchromatix_imx362_qtech_ak7374_hdr_snapshot_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_ak7374_hdr_video_3a.so:system/vendor/lib/libchromatix_imx362_qtech_ak7374_hdr_video_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_ak7374_hfr_120.so:system/vendor/lib/libchromatix_imx362_qtech_ak7374_hfr_120.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_ak7374_hfr_120_3a.so:system/vendor/lib/libchromatix_imx362_qtech_ak7374_hfr_120_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_ak7374_hfr_240.so:system/vendor/lib/libchromatix_imx362_qtech_ak7374_hfr_240.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_ak7374_hfr_240_3a.so:system/vendor/lib/libchromatix_imx362_qtech_ak7374_hfr_240_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_ak7374_hfr_60.so:system/vendor/lib/libchromatix_imx362_qtech_ak7374_hfr_60.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_ak7374_hfr_60_3a.so:system/vendor/lib/libchromatix_imx362_qtech_ak7374_hfr_60_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_ak7374_postproc.so:system/vendor/lib/libchromatix_imx362_qtech_ak7374_postproc.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_ak7374_preview.so:system/vendor/lib/libchromatix_imx362_qtech_ak7374_preview.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_ak7374_snapshot.so:system/vendor/lib/libchromatix_imx362_qtech_ak7374_snapshot.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_ak7374_snapshot_hdr.so:system/vendor/lib/libchromatix_imx362_qtech_ak7374_snapshot_hdr.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_ak7374_snapshot_manual_exposure.so:system/vendor/lib/libchromatix_imx362_qtech_ak7374_snapshot_manual_exposure.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_ak7374_video_4k.so:system/vendor/lib/libchromatix_imx362_qtech_ak7374_video_4k.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_ak7374_video_4k_manual_exposure.so:system/vendor/lib/libchromatix_imx362_qtech_ak7374_video_4k_manual_exposure.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_ak7374_video_hdr.so:system/vendor/lib/libchromatix_imx362_qtech_ak7374_video_hdr.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_lc898217_1080p_preview_3a.so:system/vendor/lib/libchromatix_imx362_qtech_lc898217_1080p_preview_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_lc898217_1080p_video_3a.so:system/vendor/lib/libchromatix_imx362_qtech_lc898217_1080p_video_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_lc898217_4k_preview_3a.so:system/vendor/lib/libchromatix_imx362_qtech_lc898217_4k_preview_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_lc898217_4k_video_3a.so:system/vendor/lib/libchromatix_imx362_qtech_lc898217_4k_video_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_lc898217_common.so:system/vendor/lib/libchromatix_imx362_qtech_lc898217_common.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_lc898217_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx362_qtech_lc898217_cpp_hfr_120.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_lc898217_cpp_hfr_240.so:system/vendor/lib/libchromatix_imx362_qtech_lc898217_cpp_hfr_240.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_lc898217_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx362_qtech_lc898217_cpp_hfr_60.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_lc898217_cpp_liveshot.so:system/vendor/lib/libchromatix_imx362_qtech_lc898217_cpp_liveshot.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_lc898217_cpp_preview.so:system/vendor/lib/libchromatix_imx362_qtech_lc898217_cpp_preview.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_lc898217_cpp_snapshot.so:system/vendor/lib/libchromatix_imx362_qtech_lc898217_cpp_snapshot.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_lc898217_cpp_snapshot_downscale.so:system/vendor/lib/libchromatix_imx362_qtech_lc898217_cpp_snapshot_downscale.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_lc898217_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx362_qtech_lc898217_cpp_snapshot_hdr.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_lc898217_cpp_snapshot_upscale.so:system/vendor/lib/libchromatix_imx362_qtech_lc898217_cpp_snapshot_upscale.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_lc898217_cpp_video.so:system/vendor/lib/libchromatix_imx362_qtech_lc898217_cpp_video.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_lc898217_cpp_video_4k.so:system/vendor/lib/libchromatix_imx362_qtech_lc898217_cpp_video_4k.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_lc898217_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx362_qtech_lc898217_cpp_video_hdr.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_lc898217_default_preview_3a.so:system/vendor/lib/libchromatix_imx362_qtech_lc898217_default_preview_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_lc898217_default_video.so:system/vendor/lib/libchromatix_imx362_qtech_lc898217_default_video.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_lc898217_default_video_3a.so:system/vendor/lib/libchromatix_imx362_qtech_lc898217_default_video_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_lc898217_default_video_manual_exposure.so:system/vendor/lib/libchromatix_imx362_qtech_lc898217_default_video_manual_exposure.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_lc898217_fullsize_preview_3a.so:system/vendor/lib/libchromatix_imx362_qtech_lc898217_fullsize_preview_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_lc898217_fullsize_video_3a.so:system/vendor/lib/libchromatix_imx362_qtech_lc898217_fullsize_video_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_lc898217_hdr_snapshot_3a.so:system/vendor/lib/libchromatix_imx362_qtech_lc898217_hdr_snapshot_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_lc898217_hdr_video_3a.so:system/vendor/lib/libchromatix_imx362_qtech_lc898217_hdr_video_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_lc898217_hfr_120.so:system/vendor/lib/libchromatix_imx362_qtech_lc898217_hfr_120.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_lc898217_hfr_120_3a.so:system/vendor/lib/libchromatix_imx362_qtech_lc898217_hfr_120_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_lc898217_hfr_240.so:system/vendor/lib/libchromatix_imx362_qtech_lc898217_hfr_240.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_lc898217_hfr_240_3a.so:system/vendor/lib/libchromatix_imx362_qtech_lc898217_hfr_240_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_lc898217_hfr_60.so:system/vendor/lib/libchromatix_imx362_qtech_lc898217_hfr_60.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_lc898217_hfr_60_3a.so:system/vendor/lib/libchromatix_imx362_qtech_lc898217_hfr_60_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_lc898217_postproc.so:system/vendor/lib/libchromatix_imx362_qtech_lc898217_postproc.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_lc898217_preview.so:system/vendor/lib/libchromatix_imx362_qtech_lc898217_preview.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_lc898217_snapshot.so:system/vendor/lib/libchromatix_imx362_qtech_lc898217_snapshot.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_lc898217_snapshot_hdr.so:system/vendor/lib/libchromatix_imx362_qtech_lc898217_snapshot_hdr.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_lc898217_snapshot_manual_exposure.so:system/vendor/lib/libchromatix_imx362_qtech_lc898217_snapshot_manual_exposure.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_lc898217_video_4k.so:system/vendor/lib/libchromatix_imx362_qtech_lc898217_video_4k.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_lc898217_video_4k_manual_exposure.so:system/vendor/lib/libchromatix_imx362_qtech_lc898217_video_4k_manual_exposure.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_qtech_lc898217_video_hdr.so:system/vendor/lib/libchromatix_imx362_qtech_lc898217_video_hdr.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_snapshot.so:system/vendor/lib/libchromatix_imx362_snapshot.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_snapshot_bear.so:system/vendor/lib/libchromatix_imx362_snapshot_bear.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_imx362_snapshot_hdr.so:system/vendor/lib/libchromatix_imx362_snapshot_hdr.so \
@@ -1491,106 +1236,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_hfr_90_ak7371.so:system/vendor/lib/libchromatix_s5k2l7_hfr_90_ak7371.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_postproc.so:system/vendor/lib/libchromatix_s5k2l7_postproc.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_preview.so:system/vendor/lib/libchromatix_s5k2l7_preview.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_ak7374_4k_preview_3a.so:system/vendor/lib/libchromatix_s5k2l7_primax_ak7374_4k_preview_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_ak7374_4k_video_3a.so:system/vendor/lib/libchromatix_s5k2l7_primax_ak7374_4k_video_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_ak7374_common.so:system/vendor/lib/libchromatix_s5k2l7_primax_ak7374_common.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_ak7374_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k2l7_primax_ak7374_cpp_hfr_120.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_ak7374_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k2l7_primax_ak7374_cpp_hfr_60.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_ak7374_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k2l7_primax_ak7374_cpp_hfr_90.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_ak7374_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k2l7_primax_ak7374_cpp_liveshot.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_ak7374_cpp_preview.so:system/vendor/lib/libchromatix_s5k2l7_primax_ak7374_cpp_preview.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_ak7374_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k2l7_primax_ak7374_cpp_snapshot.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_ak7374_cpp_video.so:system/vendor/lib/libchromatix_s5k2l7_primax_ak7374_cpp_video.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_ak7374_cpp_video_4k.so:system/vendor/lib/libchromatix_s5k2l7_primax_ak7374_cpp_video_4k.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_ak7374_default_preview_3a.so:system/vendor/lib/libchromatix_s5k2l7_primax_ak7374_default_preview_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_ak7374_default_video_3a.so:system/vendor/lib/libchromatix_s5k2l7_primax_ak7374_default_video_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_ak7374_hfr_120.so:system/vendor/lib/libchromatix_s5k2l7_primax_ak7374_hfr_120.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_ak7374_hfr_120_3a.so:system/vendor/lib/libchromatix_s5k2l7_primax_ak7374_hfr_120_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_ak7374_hfr_60.so:system/vendor/lib/libchromatix_s5k2l7_primax_ak7374_hfr_60.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_ak7374_hfr_60_3a.so:system/vendor/lib/libchromatix_s5k2l7_primax_ak7374_hfr_60_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_ak7374_hfr_90.so:system/vendor/lib/libchromatix_s5k2l7_primax_ak7374_hfr_90.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_ak7374_hfr_90_3a.so:system/vendor/lib/libchromatix_s5k2l7_primax_ak7374_hfr_90_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_ak7374_postproc.so:system/vendor/lib/libchromatix_s5k2l7_primax_ak7374_postproc.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_ak7374_preview.so:system/vendor/lib/libchromatix_s5k2l7_primax_ak7374_preview.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_ak7374_snapshot.so:system/vendor/lib/libchromatix_s5k2l7_primax_ak7374_snapshot.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_ak7374_video_4k.so:system/vendor/lib/libchromatix_s5k2l7_primax_ak7374_video_4k.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_ak7374_zsl_preview_3a.so:system/vendor/lib/libchromatix_s5k2l7_primax_ak7374_zsl_preview_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_ak7374_zsl_video_3a.so:system/vendor/lib/libchromatix_s5k2l7_primax_ak7374_zsl_video_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_lc898217_4k_preview_3a.so:system/vendor/lib/libchromatix_s5k2l7_primax_lc898217_4k_preview_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_lc898217_4k_video_3a.so:system/vendor/lib/libchromatix_s5k2l7_primax_lc898217_4k_video_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_lc898217_common.so:system/vendor/lib/libchromatix_s5k2l7_primax_lc898217_common.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_lc898217_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k2l7_primax_lc898217_cpp_hfr_120.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_lc898217_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k2l7_primax_lc898217_cpp_hfr_60.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_lc898217_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k2l7_primax_lc898217_cpp_hfr_90.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_lc898217_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k2l7_primax_lc898217_cpp_liveshot.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_lc898217_cpp_preview.so:system/vendor/lib/libchromatix_s5k2l7_primax_lc898217_cpp_preview.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_lc898217_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k2l7_primax_lc898217_cpp_snapshot.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_lc898217_cpp_video.so:system/vendor/lib/libchromatix_s5k2l7_primax_lc898217_cpp_video.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_lc898217_cpp_video_4k.so:system/vendor/lib/libchromatix_s5k2l7_primax_lc898217_cpp_video_4k.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_lc898217_default_preview_3a.so:system/vendor/lib/libchromatix_s5k2l7_primax_lc898217_default_preview_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_lc898217_default_video_3a.so:system/vendor/lib/libchromatix_s5k2l7_primax_lc898217_default_video_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_lc898217_hfr_120.so:system/vendor/lib/libchromatix_s5k2l7_primax_lc898217_hfr_120.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_lc898217_hfr_120_3a.so:system/vendor/lib/libchromatix_s5k2l7_primax_lc898217_hfr_120_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_lc898217_hfr_60.so:system/vendor/lib/libchromatix_s5k2l7_primax_lc898217_hfr_60.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_lc898217_hfr_60_3a.so:system/vendor/lib/libchromatix_s5k2l7_primax_lc898217_hfr_60_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_lc898217_hfr_90.so:system/vendor/lib/libchromatix_s5k2l7_primax_lc898217_hfr_90.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_lc898217_hfr_90_3a.so:system/vendor/lib/libchromatix_s5k2l7_primax_lc898217_hfr_90_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_lc898217_postproc.so:system/vendor/lib/libchromatix_s5k2l7_primax_lc898217_postproc.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_lc898217_preview.so:system/vendor/lib/libchromatix_s5k2l7_primax_lc898217_preview.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_lc898217_snapshot.so:system/vendor/lib/libchromatix_s5k2l7_primax_lc898217_snapshot.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_lc898217_video_4k.so:system/vendor/lib/libchromatix_s5k2l7_primax_lc898217_video_4k.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_lc898217_zsl_preview_3a.so:system/vendor/lib/libchromatix_s5k2l7_primax_lc898217_zsl_preview_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_primax_lc898217_zsl_video_3a.so:system/vendor/lib/libchromatix_s5k2l7_primax_lc898217_zsl_video_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_4k_preview_3a.so:system/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_4k_preview_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_4k_video_3a.so:system/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_4k_video_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_common.so:system/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_common.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_cpp_hfr_120.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_cpp_hfr_60.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_cpp_hfr_90.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_cpp_liveshot.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_cpp_preview.so:system/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_cpp_preview.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_cpp_snapshot.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_cpp_video.so:system/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_cpp_video.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_cpp_video_4k.so:system/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_cpp_video_4k.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_default_preview_3a.so:system/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_default_preview_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_default_video_3a.so:system/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_default_video_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_hfr_120.so:system/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_hfr_120.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_hfr_120_3a.so:system/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_hfr_120_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_hfr_60.so:system/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_hfr_60.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_hfr_60_3a.so:system/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_hfr_60_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_hfr_90.so:system/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_hfr_90.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_hfr_90_3a.so:system/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_hfr_90_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_postproc.so:system/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_postproc.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_preview.so:system/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_preview.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_snapshot.so:system/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_snapshot.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_video_4k.so:system/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_video_4k.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_zsl_preview_3a.so:system/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_zsl_preview_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_zsl_video_3a.so:system/vendor/lib/libchromatix_s5k2l7_qtech_ak7374_zsl_video_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_4k_preview_3a.so:system/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_4k_preview_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_4k_video_3a.so:system/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_4k_video_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_common.so:system/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_common.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_cpp_hfr_120.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_cpp_hfr_60.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_cpp_hfr_90.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_cpp_liveshot.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_cpp_preview.so:system/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_cpp_preview.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_cpp_snapshot.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_cpp_video.so:system/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_cpp_video.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_cpp_video_4k.so:system/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_cpp_video_4k.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_default_preview_3a.so:system/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_default_preview_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_default_video_3a.so:system/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_default_video_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_hfr_120.so:system/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_hfr_120.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_hfr_120_3a.so:system/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_hfr_120_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_hfr_60.so:system/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_hfr_60.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_hfr_60_3a.so:system/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_hfr_60_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_hfr_90.so:system/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_hfr_90.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_hfr_90_3a.so:system/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_hfr_90_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_postproc.so:system/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_postproc.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_preview.so:system/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_preview.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_snapshot.so:system/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_snapshot.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_video_4k.so:system/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_video_4k.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_zsl_preview_3a.so:system/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_zsl_preview_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_zsl_video_3a.so:system/vendor/lib/libchromatix_s5k2l7_qtech_lc898217_zsl_video_3a.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_snapshot.so:system/vendor/lib/libchromatix_s5k2l7_snapshot.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_video_4k.so:system/vendor/lib/libchromatix_s5k2l7_video_4k.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k2l7_zsl_preview_ak7371.so:system/vendor/lib/libchromatix_s5k2l7_zsl_preview_ak7371.so \
@@ -1794,35 +1439,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_fullsize_video_3a.so:system/vendor/lib/libchromatix_s5k3p3sm_fullsize_video_3a.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_postproc.so:system/vendor/lib/libchromatix_s5k3p3sm_postproc.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_preview.so:system/vendor/lib/libchromatix_s5k3p3sm_preview.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_qtech_common.so:system/vendor/lib/libchromatix_s5k3p3sm_qtech_common.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_qtech_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3p3sm_qtech_cpp_liveshot.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_qtech_cpp_preview.so:system/vendor/lib/libchromatix_s5k3p3sm_qtech_cpp_preview.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_qtech_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k3p3sm_qtech_cpp_snapshot.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_qtech_cpp_snapshot_remosaic.so:system/vendor/lib/libchromatix_s5k3p3sm_qtech_cpp_snapshot_remosaic.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_qtech_cpp_video.so:system/vendor/lib/libchromatix_s5k3p3sm_qtech_cpp_video.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_qtech_default_preview_3a.so:system/vendor/lib/libchromatix_s5k3p3sm_qtech_default_preview_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_qtech_default_video.so:system/vendor/lib/libchromatix_s5k3p3sm_qtech_default_video.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_qtech_default_video_3a.so:system/vendor/lib/libchromatix_s5k3p3sm_qtech_default_video_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_qtech_fullsize_preview_3a.so:system/vendor/lib/libchromatix_s5k3p3sm_qtech_fullsize_preview_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_qtech_fullsize_video_3a.so:system/vendor/lib/libchromatix_s5k3p3sm_qtech_fullsize_video_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_qtech_postproc.so:system/vendor/lib/libchromatix_s5k3p3sm_qtech_postproc.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_qtech_preview.so:system/vendor/lib/libchromatix_s5k3p3sm_qtech_preview.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_qtech_snapshot.so:system/vendor/lib/libchromatix_s5k3p3sm_qtech_snapshot.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_snapshot.so:system/vendor/lib/libchromatix_s5k3p3sm_snapshot.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_stech_common.so:system/vendor/lib/libchromatix_s5k3p3sm_stech_common.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_stech_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3p3sm_stech_cpp_liveshot.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_stech_cpp_preview.so:system/vendor/lib/libchromatix_s5k3p3sm_stech_cpp_preview.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_stech_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k3p3sm_stech_cpp_snapshot.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_stech_cpp_snapshot_remosaic.so:system/vendor/lib/libchromatix_s5k3p3sm_stech_cpp_snapshot_remosaic.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_stech_cpp_video.so:system/vendor/lib/libchromatix_s5k3p3sm_stech_cpp_video.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_stech_default_preview_3a.so:system/vendor/lib/libchromatix_s5k3p3sm_stech_default_preview_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_stech_default_video.so:system/vendor/lib/libchromatix_s5k3p3sm_stech_default_video.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_stech_default_video_3a.so:system/vendor/lib/libchromatix_s5k3p3sm_stech_default_video_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_stech_fullsize_preview_3a.so:system/vendor/lib/libchromatix_s5k3p3sm_stech_fullsize_preview_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_stech_fullsize_video_3a.so:system/vendor/lib/libchromatix_s5k3p3sm_stech_fullsize_video_3a.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_stech_postproc.so:system/vendor/lib/libchromatix_s5k3p3sm_stech_postproc.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_stech_preview.so:system/vendor/lib/libchromatix_s5k3p3sm_stech_preview.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_stech_snapshot.so:system/vendor/lib/libchromatix_s5k3p3sm_stech_snapshot.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_default_preview.so:system/vendor/lib/libchromatix_s5k3p8sp_a3_default_preview.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_default_video.so:system/vendor/lib/libchromatix_s5k3p8sp_a3_default_video.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_zsl_preview.so:system/vendor/lib/libchromatix_s5k3p8sp_a3_zsl_preview.so \
@@ -1882,56 +1499,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_liveshot.so:system/vendor/lib/libchromatix_s5k4e8_liveshot.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_postproc.so:system/vendor/lib/libchromatix_s5k4e8_postproc.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_preview.so:system/vendor/lib/libchromatix_s5k4e8_preview.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_primax_a3_default_preview.so:system/vendor/lib/libchromatix_s5k4e8_primax_a3_default_preview.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_primax_a3_default_video.so:system/vendor/lib/libchromatix_s5k4e8_primax_a3_default_video.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_primax_a3_hfr_120.so:system/vendor/lib/libchromatix_s5k4e8_primax_a3_hfr_120.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_primax_a3_hfr_60.so:system/vendor/lib/libchromatix_s5k4e8_primax_a3_hfr_60.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_primax_a3_hfr_90.so:system/vendor/lib/libchromatix_s5k4e8_primax_a3_hfr_90.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_primax_common.so:system/vendor/lib/libchromatix_s5k4e8_primax_common.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_primax_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_s5k4e8_primax_cpp_ds_chromatix.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_primax_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k4e8_primax_cpp_hfr_120.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_primax_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k4e8_primax_cpp_hfr_60.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_primax_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k4e8_primax_cpp_hfr_90.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_primax_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k4e8_primax_cpp_liveshot.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_primax_cpp_preview.so:system/vendor/lib/libchromatix_s5k4e8_primax_cpp_preview.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_primax_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k4e8_primax_cpp_snapshot.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_primax_cpp_us_chromatix.so:system/vendor/lib/libchromatix_s5k4e8_primax_cpp_us_chromatix.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_primax_cpp_video.so:system/vendor/lib/libchromatix_s5k4e8_primax_cpp_video.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_primax_default_video.so:system/vendor/lib/libchromatix_s5k4e8_primax_default_video.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_primax_hfr_120.so:system/vendor/lib/libchromatix_s5k4e8_primax_hfr_120.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_primax_hfr_60.so:system/vendor/lib/libchromatix_s5k4e8_primax_hfr_60.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_primax_hfr_90.so:system/vendor/lib/libchromatix_s5k4e8_primax_hfr_90.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_primax_liveshot.so:system/vendor/lib/libchromatix_s5k4e8_primax_liveshot.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_primax_postproc.so:system/vendor/lib/libchromatix_s5k4e8_primax_postproc.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_primax_preview.so:system/vendor/lib/libchromatix_s5k4e8_primax_preview.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_primax_snapshot.so:system/vendor/lib/libchromatix_s5k4e8_primax_snapshot.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_primax_zsl_preview.so:system/vendor/lib/libchromatix_s5k4e8_primax_zsl_preview.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_primax_zsl_video.so:system/vendor/lib/libchromatix_s5k4e8_primax_zsl_video.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_qtech_a3_default_preview.so:system/vendor/lib/libchromatix_s5k4e8_qtech_a3_default_preview.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_qtech_a3_default_video.so:system/vendor/lib/libchromatix_s5k4e8_qtech_a3_default_video.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_qtech_a3_hfr_120.so:system/vendor/lib/libchromatix_s5k4e8_qtech_a3_hfr_120.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_qtech_a3_hfr_60.so:system/vendor/lib/libchromatix_s5k4e8_qtech_a3_hfr_60.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_qtech_a3_hfr_90.so:system/vendor/lib/libchromatix_s5k4e8_qtech_a3_hfr_90.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_qtech_common.so:system/vendor/lib/libchromatix_s5k4e8_qtech_common.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_qtech_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_s5k4e8_qtech_cpp_ds_chromatix.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_qtech_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k4e8_qtech_cpp_hfr_120.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_qtech_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k4e8_qtech_cpp_hfr_60.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_qtech_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k4e8_qtech_cpp_hfr_90.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_qtech_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k4e8_qtech_cpp_liveshot.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_qtech_cpp_preview.so:system/vendor/lib/libchromatix_s5k4e8_qtech_cpp_preview.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_qtech_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k4e8_qtech_cpp_snapshot.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_qtech_cpp_us_chromatix.so:system/vendor/lib/libchromatix_s5k4e8_qtech_cpp_us_chromatix.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_qtech_cpp_video.so:system/vendor/lib/libchromatix_s5k4e8_qtech_cpp_video.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_qtech_default_video.so:system/vendor/lib/libchromatix_s5k4e8_qtech_default_video.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_qtech_hfr_120.so:system/vendor/lib/libchromatix_s5k4e8_qtech_hfr_120.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_qtech_hfr_60.so:system/vendor/lib/libchromatix_s5k4e8_qtech_hfr_60.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_qtech_hfr_90.so:system/vendor/lib/libchromatix_s5k4e8_qtech_hfr_90.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_qtech_liveshot.so:system/vendor/lib/libchromatix_s5k4e8_qtech_liveshot.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_qtech_postproc.so:system/vendor/lib/libchromatix_s5k4e8_qtech_postproc.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_qtech_preview.so:system/vendor/lib/libchromatix_s5k4e8_qtech_preview.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_qtech_snapshot.so:system/vendor/lib/libchromatix_s5k4e8_qtech_snapshot.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_qtech_zsl_preview.so:system/vendor/lib/libchromatix_s5k4e8_qtech_zsl_preview.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_qtech_zsl_video.so:system/vendor/lib/libchromatix_s5k4e8_qtech_zsl_video.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_snapshot.so:system/vendor/lib/libchromatix_s5k4e8_snapshot.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_zsl_preview.so:system/vendor/lib/libchromatix_s5k4e8_zsl_preview.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k4e8_zsl_video.so:system/vendor/lib/libchromatix_s5k4e8_zsl_video.so \
@@ -2242,27 +1809,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
     vendor/meizu/m1721/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/meizu/m1721/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/mmi_audio.so:system/vendor/lib/mmi_audio.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/mmi_bluetooth.so:system/vendor/lib/mmi_bluetooth.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/mmi_camera.so:system/vendor/lib/mmi_camera.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/mmi_cpu.so:system/vendor/lib/mmi_cpu.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/mmi_flashlight.so:system/vendor/lib/mmi_flashlight.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/mmi_fm.so:system/vendor/lib/mmi_fm.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/mmi_gps.so:system/vendor/lib/mmi_gps.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/mmi_hall.so:system/vendor/lib/mmi_hall.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/mmi_key.so:system/vendor/lib/mmi_key.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/mmi_lcd.so:system/vendor/lib/mmi_lcd.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/mmi_light.so:system/vendor/lib/mmi_light.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/mmi_memory.so:system/vendor/lib/mmi_memory.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/mmi_sensor.so:system/vendor/lib/mmi_sensor.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/mmi_sim.so:system/vendor/lib/mmi_sim.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/mmi_speaker_calibration.so:system/vendor/lib/mmi_speaker_calibration.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/mmi_storage.so:system/vendor/lib/mmi_storage.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/mmi_sysinfo.so:system/vendor/lib/mmi_sysinfo.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/mmi_touch.so:system/vendor/lib/mmi_touch.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/mmi_touchext.so:system/vendor/lib/mmi_touchext.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/mmi_vibrator.so:system/vendor/lib/mmi_vibrator.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/mmi_wifi.so:system/vendor/lib/mmi_wifi.so \
     vendor/meizu/m1721/proprietary/vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so:system/vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so \
     vendor/meizu/m1721/proprietary/vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_skel.so:system/vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_skel.so \
     vendor/meizu/m1721/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:system/vendor/lib/rfsa/adsp/libapps_mem_heap.so \
@@ -2560,7 +2106,9 @@ PRODUCT_PACKAGES += \
     libsdm-disp-apis \
     libtime_genoff \
     libts_detected_face_hal \
+    libts_detected_face_jni \
     libts_face_beautify_hal \
+    libts_face_beautify_jni \
     QtiTelephonyService \
     TimeService \
     datastatusnotification \
