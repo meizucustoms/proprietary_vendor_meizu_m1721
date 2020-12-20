@@ -319,6 +319,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/lib/libcam.common.meizu.platform.so:system/lib/libcam.common.meizu.platform.so \
     vendor/meizu/m1721/proprietary/lib/libcam.common.meizu.so:system/lib/libcam.common.meizu.so \
     vendor/meizu/m1721/proprietary/lib/libfilter_effects.so:system/lib/libfilter_effects.so \
+	vendor/meizu/m1721/proprietary/lib/libImageClarity.so:system/lib/libImageClarity.so \
     vendor/meizu/m1721/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/meizu/m1721/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/meizu/m1721/proprietary/lib/libmeizucamera.so:system/lib/libmeizucamera.so \
@@ -387,7 +388,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libChamomilePA.so:system/vendor/lib/libChamomilePA.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libImageClarity.so:system/vendor/lib/libImageClarity.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libOmxAlacDec.so:system/vendor/lib/libOmxAlacDec.so \
