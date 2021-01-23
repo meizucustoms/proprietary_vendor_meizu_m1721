@@ -36,6 +36,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/bin/mm-audio-ftm:system/bin/mm-audio-ftm \
     vendor/meizu/m1721/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/meizu/m1721/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/meizu/m1721/proprietary/bin/remosaic_daemon:system/bin/remosaic_daemon \
     vendor/meizu/m1721/proprietary/bin/mm-vidc-omx-test:system/bin/mm-vidc-omx-test \
     vendor/meizu/m1721/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/meizu/m1721/proprietary/bin/netmgrd:system/bin/netmgrd \
