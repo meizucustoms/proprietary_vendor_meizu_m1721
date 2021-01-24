@@ -1,4 +1,4 @@
-# Copyright (C) 2017-2021 The LineageOS Project
+# Copyright (C) 2017-2020 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -36,6 +36,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/bin/mm-audio-ftm:system/bin/mm-audio-ftm \
     vendor/meizu/m1721/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/meizu/m1721/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/meizu/m1721/proprietary/bin/remosaic_daemon:system/bin/remosaic_daemon \
     vendor/meizu/m1721/proprietary/bin/mm-vidc-omx-test:system/bin/mm-vidc-omx-test \
     vendor/meizu/m1721/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/meizu/m1721/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -44,7 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/meizu/m1721/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/meizu/m1721/proprietary/bin/radish:system/bin/radish \
-    vendor/meizu/m1721/proprietary/bin/remosaic_daemon:system/bin/remosaic_daemon \
     vendor/meizu/m1721/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/meizu/m1721/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/meizu/m1721/proprietary/bin/test_module_pproc:system/bin/test_module_pproc \
@@ -312,27 +312,23 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/meizu/m1721/proprietary/lib/hw/audio.primary.msm8953.so:system/lib/hw/audio.primary.msm8953.so \
     vendor/meizu/m1721/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
-    vendor/meizu/m1721/proprietary/lib/libImageClarity.so:system/lib/libImageClarity.so \
     vendor/meizu/m1721/proprietary/lib/libMiCameraHal.so:system/lib/libMiCameraHal.so \
     vendor/meizu/m1721/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
-    vendor/meizu/m1721/proprietary/lib/libarcsoft_makeup.so:system/lib/libarcsoft_makeup.so \
-    vendor/meizu/m1721/proprietary/lib/libcam.common.meizu.platform.so:system/lib/libcam.common.meizu.platform.so \
-    vendor/meizu/m1721/proprietary/lib/libcam.common.meizu.so:system/lib/libcam.common.meizu.so \
     vendor/meizu/m1721/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/meizu/m1721/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
     vendor/meizu/m1721/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
+    vendor/meizu/m1721/proprietary/lib/libcam.common.meizu.platform.so:system/lib/libcam.common.meizu.platform.so \
+    vendor/meizu/m1721/proprietary/lib/libcam.common.meizu.so:system/lib/libcam.common.meizu.so \
     vendor/meizu/m1721/proprietary/lib/libfilter_effects.so:system/lib/libfilter_effects.so \
+	vendor/meizu/m1721/proprietary/lib/libImageClarity.so:system/lib/libImageClarity.so \
     vendor/meizu/m1721/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/meizu/m1721/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/meizu/m1721/proprietary/lib/libmakeup_style.so:system/lib/libmakeup_style.so \
     vendor/meizu/m1721/proprietary/lib/libmeizucamera.so:system/lib/libmeizucamera.so \
     vendor/meizu/m1721/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
     vendor/meizu/m1721/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/meizu/m1721/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/meizu/m1721/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/meizu/m1721/proprietary/lib/libphoto_timestamp.so:system/lib/libphoto_timestamp.so \
-    vendor/meizu/m1721/proprietary/lib/libqdMetaData.so:system/lib/libqdMetaData.so \
-    vendor/meizu/m1721/proprietary/lib/libqdutils.so:system/lib/libqdutils.so \
     vendor/meizu/m1721/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/meizu/m1721/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/meizu/m1721/proprietary/lib/libvfb_render.so:system/lib/libvfb_render.so \
@@ -419,7 +415,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/vendor/lib/libactuator_ad5823.so:system/vendor/lib/libactuator_ad5823.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libactuator_ak7345.so:system/vendor/lib/libactuator_ak7345.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libactuator_ak7371.so:system/vendor/lib/libactuator_ak7371.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libactuator_ak7371_primax.so:system/vendor/lib/libactuator_ak7371_primax.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libactuator_ak7374.so:system/vendor/lib/libactuator_ak7374.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libactuator_bu64244gwz.so:system/vendor/lib/libactuator_bu64244gwz.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libactuator_bu64297.so:system/vendor/lib/libactuator_bu64297.so \
@@ -440,9 +435,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/vendor/lib/libadsp_default_listener.so:system/vendor/lib/libadsp_default_listener.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libarcsoft_dualcam_refocus.so:system/vendor/lib/libarcsoft_dualcam_refocus.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libarcsoft_high_dynamic_range.so:system/vendor/lib/libarcsoft_high_dynamic_range.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libarcsoft_low_light_shot.so:system/vendor/lib/libarcsoft_low_light_shot.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libaudiodevarb.so:system/vendor/lib/libaudiodevarb.so \
