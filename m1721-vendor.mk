@@ -269,6 +269,9 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/etc/firmware/widevine.b06:system/etc/firmware/widevine.b06 \
     vendor/meizu/m1721/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
     vendor/meizu/m1721/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
+    vendor/meizu/m1721/proprietary/etc/permissions/android.hardware.vr.high_performance.xml:system/etc/permissions/android.hardware.vr.high_performance.xml \
+    vendor/meizu/m1721/proprietary/etc/permissions/android.hardware.vulkan.level.xml:system/etc/permissions/android.hardware.vulkan.level.xml \
+    vendor/meizu/m1721/proprietary/etc/permissions/android.hardware.vulkan.version.xml:system/etc/permissions/android.hardware.vulkan.version.xml \
     vendor/meizu/m1721/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/meizu/m1721/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/meizu/m1721/proprietary/etc/permissions/com.meizu.camera.xml:system/etc/permissions/com.meizu.camera.xml \
@@ -310,6 +313,8 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/meizu/m1721/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/meizu/m1721/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
+    vendor/meizu/m1721/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
+    vendor/meizu/m1721/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/meizu/m1721/proprietary/lib/hw/audio.primary.msm8953.so:system/lib/hw/audio.primary.msm8953.so \
     vendor/meizu/m1721/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
     vendor/meizu/m1721/proprietary/lib/libMiCameraHal.so:system/lib/libMiCameraHal.so \
@@ -344,6 +349,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so \
     vendor/meizu/m1721/proprietary/lib/soundfx/libreverbwrapper.so:system/lib/soundfx/libreverbwrapper.so \
     vendor/meizu/m1721/proprietary/lib/soundfx/libvisualizer.so:system/lib/soundfx/libvisualizer.so \
+    vendor/meizu/m1721/proprietary/lib64/egl/libGLES_android.so:system/lib64/egl/libGLES_android.so \
     vendor/meizu/m1721/proprietary/lib64/hw/audio.primary.msm8953.so:system/lib64/hw/audio.primary.msm8953.so \
     vendor/meizu/m1721/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
     vendor/meizu/m1721/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
@@ -383,6 +389,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/vendor/lib/hw/gatekeeper.msm8953.so:system/vendor/lib/hw/gatekeeper.msm8953.so \
     vendor/meizu/m1721/proprietary/vendor/lib/hw/keystore.msm8953.so:system/vendor/lib/hw/keystore.msm8953.so \
     vendor/meizu/m1721/proprietary/vendor/lib/hw/sound_trigger.primary.msm8953.so:system/vendor/lib/hw/sound_trigger.primary.msm8953.so \
+    vendor/meizu/m1721/proprietary/vendor/lib/hw/vr.msm8953.so:system/vendor/lib/hw/vr.msm8953.so \
     vendor/meizu/m1721/proprietary/vendor/lib/hw/vulkan.msm8953.so:system/vendor/lib/hw/vulkan.msm8953.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libAlacSwDec.so:system/vendor/lib/libAlacSwDec.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libApeSwDec.so:system/vendor/lib/libApeSwDec.so \
@@ -1876,6 +1883,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/vendor/lib/libdrc.so:system/vendor/lib/libdrc.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
+    vendor/meizu/m1721/proprietary/vendor/lib/libEGL_adreno.so:system/vendor/lib/libEGL_adreno.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libfastrpc_aue_stub.so:system/vendor/lib/libfastrpc_aue_stub.so \
@@ -2195,6 +2203,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
     vendor/meizu/m1721/proprietary/vendor/lib64/hw/gatekeeper.msm8953.so:system/vendor/lib64/hw/gatekeeper.msm8953.so \
     vendor/meizu/m1721/proprietary/vendor/lib64/hw/keystore.msm8953.so:system/vendor/lib64/hw/keystore.msm8953.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/hw/vr.msm8953.so:system/vendor/lib64/hw/vr.msm8953.so \
     vendor/meizu/m1721/proprietary/vendor/lib64/hw/vulkan.msm8953.so:system/vendor/lib64/hw/vulkan.msm8953.so \
     vendor/meizu/m1721/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
     vendor/meizu/m1721/proprietary/vendor/lib64/lib-ims-rcscmjni.so:system/vendor/lib64/lib-ims-rcscmjni.so \
@@ -2285,6 +2294,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/vendor/lib64/libdrplugin_client.so:system/vendor/lib64/libdrplugin_client.so \
     vendor/meizu/m1721/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
     vendor/meizu/m1721/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/libEGL_adreno.so:system/vendor/lib64/libEGL_adreno.so \
     vendor/meizu/m1721/proprietary/vendor/lib64/libevent_observer.so:system/vendor/lib64/libevent_observer.so \
     vendor/meizu/m1721/proprietary/vendor/lib64/libfastcvadsp_stub.so:system/vendor/lib64/libfastcvadsp_stub.so \
     vendor/meizu/m1721/proprietary/vendor/lib64/libfastcvopt.so:system/vendor/lib64/libfastcvopt.so \
