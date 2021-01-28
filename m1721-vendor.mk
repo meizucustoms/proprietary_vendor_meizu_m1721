@@ -377,6 +377,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/meizu/m1721/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/meizu/m1721/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/meizu/m1721/proprietary/vendor/etc/public.libraries.txt:system/vendor/etc/public.libraries.txt \
     vendor/meizu/m1721/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/meizu/m1721/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/meizu/m1721/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -2470,6 +2471,12 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
     vendor/meizu/m1721/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
+# Perf
+PRODUCT_PACKAGES += \
+    com.qualcomm.qti.Performance.xml \
+    libqti_performance \
+    QPerformance
+    
 PRODUCT_PACKAGES += \
     libsdm-disp-apis \
     libtime_genoff \
