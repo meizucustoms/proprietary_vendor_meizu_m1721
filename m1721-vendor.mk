@@ -76,6 +76,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
     vendor/meizu/m1721/proprietary/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
     vendor/meizu/m1721/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
+    vendor/meizu/m1721/proprietary/etc/svi_config.xml:system/etc/svi_config.xml \
     vendor/meizu/m1721/proprietary/etc/camera/c5490_chromatix.xml:system/etc/camera/c5490_chromatix.xml \
     vendor/meizu/m1721/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
     vendor/meizu/m1721/proprietary/etc/camera/csidtg_camera.xml:system/etc/camera/csidtg_camera.xml \
