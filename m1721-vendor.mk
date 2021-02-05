@@ -421,37 +421,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
     vendor/meizu/m1721/proprietary/vendor/etc/perf-profile1.conf:system/vendor/etc/perf-profile1.conf \
     vendor/meizu/m1721/proprietary/vendor/etc/public.libraries.txt:system/vendor/etc/public.libraries.txt \
-    vendor/meizu/m1721/proprietary/vendor/etc/scve/facereco/gModel.dat:system/vendor/etc/scve/facereco/gModel.dat \
-    vendor/meizu/m1721/proprietary/vendor/etc/scve/textreco/chardecoder/CharType.dat:system/vendor/etc/scve/textreco/chardecoder/CharType.dat \
-    vendor/meizu/m1721/proprietary/vendor/etc/scve/textreco/chardecoder/ChinesePunctuation.rst:system/vendor/etc/scve/textreco/chardecoder/ChinesePunctuation.rst \
-    vendor/meizu/m1721/proprietary/vendor/etc/scve/textreco/chardecoder/GLVQDecoder_fixed.ohie:system/vendor/etc/scve/textreco/chardecoder/GLVQDecoder_fixed.ohie \
-    vendor/meizu/m1721/proprietary/vendor/etc/scve/textreco/chardecoder/LDA_kor_2197classes_576dim_centroidNorm.dat:system/vendor/etc/scve/textreco/chardecoder/LDA_kor_2197classes_576dim_centroidNorm.dat \
-    vendor/meizu/m1721/proprietary/vendor/etc/scve/textreco/chardecoder/LDA_kor_consonant_19classes_64dim_linearNorm.dat:system/vendor/etc/scve/textreco/chardecoder/LDA_kor_consonant_19classes_64dim_linearNorm.dat \
-    vendor/meizu/m1721/proprietary/vendor/etc/scve/textreco/chardecoder/_conf_eng_num_sym_font40_4transd_zscore_morph_.trn2876.trn:system/vendor/etc/scve/textreco/chardecoder/_conf_eng_num_sym_font40_4transd_zscore_morph_.trn2876.trn \
-    vendor/meizu/m1721/proprietary/vendor/etc/scve/textreco/chardecoder/_conf_eng_num_sym_font40_conc2_meshrn__de__1_1__zscore_morph.trn10158.trn:system/vendor/etc/scve/textreco/chardecoder/_conf_eng_num_sym_font40_conc2_meshrn__de__1_1__zscore_morph.trn10158.trn \
-    vendor/meizu/m1721/proprietary/vendor/etc/scve/textreco/chardecoder/_conf_eng_num_sym_font40_rbp_data5100_patch500_5x5_24x24_dim727.trn31585.trn:system/vendor/etc/scve/textreco/chardecoder/_conf_eng_num_sym_font40_rbp_data5100_patch500_5x5_24x24_dim727.trn31585.trn \
-    vendor/meizu/m1721/proprietary/vendor/etc/scve/textreco/chardecoder/_eng_font40_4transmeshrnorm6x6_leaflda85_ligature_ext14_c70_sp1lI_newxml3.trn31299.trn:system/vendor/etc/scve/textreco/chardecoder/_eng_font40_4transmeshrnorm6x6_leaflda85_ligature_ext14_c70_sp1lI_newxml3.trn31299.trn \
-    vendor/meizu/m1721/proprietary/vendor/etc/scve/textreco/chardecoder/_numpunc_font40_4transmeshrnorm_leafnum1.trn9614.trn:system/vendor/etc/scve/textreco/chardecoder/_numpunc_font40_4transmeshrnorm_leafnum1.trn9614.trn \
-    vendor/meizu/m1721/proprietary/vendor/etc/scve/textreco/chardecoder/_numpunc_font40_conc2_DEFn__BGTouchy6x6n__1_1__morph.trn32025.trn:system/vendor/etc/scve/textreco/chardecoder/_numpunc_font40_conc2_DEFn__BGTouchy6x6n__1_1__morph.trn32025.trn \
-    vendor/meizu/m1721/proprietary/vendor/etc/scve/textreco/chardecoder/_numpunc_parteng_font40_4transmeshr_morph.trn400.trn:system/vendor/etc/scve/textreco/chardecoder/_numpunc_parteng_font40_4transmeshr_morph.trn400.trn \
-    vendor/meizu/m1721/proprietary/vendor/etc/scve/textreco/chardecoder/character.cost:system/vendor/etc/scve/textreco/chardecoder/character.cost \
-    vendor/meizu/m1721/proprietary/vendor/etc/scve/textreco/chardecoder/cnn_small5_synthrev_sw_sampled2_bin:system/vendor/etc/scve/textreco/chardecoder/cnn_small5_synthrev_sw_sampled2_bin \
-    vendor/meizu/m1721/proprietary/vendor/etc/scve/textreco/chardecoder/glvq_kor_2197classes_576_100dim_i42_centroidNorm.dat:system/vendor/etc/scve/textreco/chardecoder/glvq_kor_2197classes_576_100dim_i42_centroidNorm.dat \
-    vendor/meizu/m1721/proprietary/vendor/etc/scve/textreco/chardecoder/glvq_kor_consonant_19classes_64_16dim_i0_linearNorm.dat:system/vendor/etc/scve/textreco/chardecoder/glvq_kor_consonant_19classes_64_16dim_i0_linearNorm.dat \
-    vendor/meizu/m1721/proprietary/vendor/etc/scve/textreco/chardecoder/hGLVQ_kor_RLF80_float.hie:system/vendor/etc/scve/textreco/chardecoder/hGLVQ_kor_RLF80_float.hie \
-    vendor/meizu/m1721/proprietary/vendor/etc/scve/textreco/chardecoder/punRangeData.rst:system/vendor/etc/scve/textreco/chardecoder/punRangeData.rst \
-    vendor/meizu/m1721/proprietary/vendor/etc/scve/textreco/textdetector/dcnConfigForEngCNN.txt:system/vendor/etc/scve/textreco/textdetector/dcnConfigForEngCNN.txt \
-    vendor/meizu/m1721/proprietary/vendor/etc/scve/textreco/textdetector/dcnConfigForMultiCNN.txt:system/vendor/etc/scve/textreco/textdetector/dcnConfigForMultiCNN.txt \
-    vendor/meizu/m1721/proprietary/vendor/etc/scve/textreco/textdetector/forestData.bin:system/vendor/etc/scve/textreco/textdetector/forestData.bin \
-    vendor/meizu/m1721/proprietary/vendor/etc/scve/textreco/textdetector/nontextremoval_eng.model:system/vendor/etc/scve/textreco/textdetector/nontextremoval_eng.model \
-    vendor/meizu/m1721/proprietary/vendor/etc/scve/textreco/textdetector/nontextremoval_multilang.model:system/vendor/etc/scve/textreco/textdetector/nontextremoval_multilang.model \
-    vendor/meizu/m1721/proprietary/vendor/etc/scve/textreco/worddecoder/chinese.lm:system/vendor/etc/scve/textreco/worddecoder/chinese.lm \
-    vendor/meizu/m1721/proprietary/vendor/etc/scve/textreco/worddecoder/chinese_address_20150304.bin:system/vendor/etc/scve/textreco/worddecoder/chinese_address_20150304.bin \
-    vendor/meizu/m1721/proprietary/vendor/etc/scve/textreco/worddecoder/english_address_20150213.bin:system/vendor/etc/scve/textreco/worddecoder/english_address_20150213.bin \
-    vendor/meizu/m1721/proprietary/vendor/etc/scve/textreco/worddecoder/english_dictionary_20150213.bin:system/vendor/etc/scve/textreco/worddecoder/english_dictionary_20150213.bin \
-    vendor/meizu/m1721/proprietary/vendor/etc/scve/textreco/worddecoder/korean.lm:system/vendor/etc/scve/textreco/worddecoder/korean.lm \
-    vendor/meizu/m1721/proprietary/vendor/etc/scve/textreco/worddecoder/korean_address_20150129.bin:system/vendor/etc/scve/textreco/worddecoder/korean_address_20150129.bin \
-    vendor/meizu/m1721/proprietary/vendor/etc/scve/textreco/worddecoder/korean_dictionary_20150414.bin:system/vendor/etc/scve/textreco/worddecoder/korean_dictionary_20150414.bin \
     vendor/meizu/m1721/proprietary/vendor/lib/drm/libomadrmengine.so:system/vendor/lib/drm/libomadrmengine.so \
     vendor/meizu/m1721/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/meizu/m1721/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
