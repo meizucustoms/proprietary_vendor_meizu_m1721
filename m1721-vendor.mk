@@ -308,7 +308,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/meizu/m1721/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/meizu/m1721/proprietary/etc/permissions/lpa.xml:system/etc/permissions/lpa.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/qcom_logkit.xml:system/etc/permissions/qcom_logkit.xml \
     vendor/meizu/m1721/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/meizu/m1721/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/meizu/m1721/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
@@ -422,15 +421,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
     vendor/meizu/m1721/proprietary/vendor/etc/perf-profile1.conf:system/vendor/etc/perf-profile1.conf \
     vendor/meizu/m1721/proprietary/vendor/etc/public.libraries.txt:system/vendor/etc/public.libraries.txt \
-    vendor/meizu/m1721/proprietary/vendor/etc/qti-logkit/IMS.dmc:system/vendor/etc/qti-logkit/IMS.dmc \
-    vendor/meizu/m1721/proprietary/vendor/etc/qti-logkit/audiobasic.dmc:system/vendor/etc/qti-logkit/audiobasic.dmc \
-    vendor/meizu/m1721/proprietary/vendor/etc/qti-logkit/gnsslocationlogging.dmc:system/vendor/etc/qti-logkit/gnsslocationlogging.dmc \
-    vendor/meizu/m1721/proprietary/vendor/etc/qti-logkit/goldenlogmask.dmc:system/vendor/etc/qti-logkit/goldenlogmask.dmc \
-    vendor/meizu/m1721/proprietary/vendor/etc/qti-logkit/qti_logkit_command.xml:system/vendor/etc/qti-logkit/qti_logkit_command.xml \
-    vendor/meizu/m1721/proprietary/vendor/etc/qti-logkit/qti_logkit_config.xml:system/vendor/etc/qti-logkit/qti_logkit_config.xml \
-    vendor/meizu/m1721/proprietary/vendor/etc/qti-logkit/scenarios/IMS.png:system/vendor/etc/qti-logkit/scenarios/IMS.png \
-    vendor/meizu/m1721/proprietary/vendor/etc/qti-logkit/scenarios/bluetooth.png:system/vendor/etc/qti-logkit/scenarios/bluetooth.png \
-    vendor/meizu/m1721/proprietary/vendor/etc/qti-logkit/scenarios/default.png:system/vendor/etc/qti-logkit/scenarios/default.png \
     vendor/meizu/m1721/proprietary/vendor/etc/scve/facereco/gModel.dat:system/vendor/etc/scve/facereco/gModel.dat \
     vendor/meizu/m1721/proprietary/vendor/etc/scve/textreco/chardecoder/CharType.dat:system/vendor/etc/scve/textreco/chardecoder/CharType.dat \
     vendor/meizu/m1721/proprietary/vendor/etc/scve/textreco/chardecoder/ChinesePunctuation.rst:system/vendor/etc/scve/textreco/chardecoder/ChinesePunctuation.rst \
