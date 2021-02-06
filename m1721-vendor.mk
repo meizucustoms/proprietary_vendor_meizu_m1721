@@ -340,13 +340,16 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/meizu/m1721/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
     vendor/meizu/m1721/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
+    vendor/meizu/m1721/proprietary/lib/libfilter_effects.so:system/lib/libfilter_effects.so \
     vendor/meizu/m1721/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/meizu/m1721/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    vendor/meizu/m1721/proprietary/lib/libmakeup_style.so:system/lib/libmakeup_style.so \
     vendor/meizu/m1721/proprietary/lib/libmeizucamera.so:system/lib/libmeizucamera.so \
     vendor/meizu/m1721/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/meizu/m1721/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/meizu/m1721/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/meizu/m1721/proprietary/lib/libphoto_timestamp.so:system/lib/libphoto_timestamp.so \
+    vendor/meizu/m1721/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/meizu/m1721/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/meizu/m1721/proprietary/lib/libvfb_render.so:system/lib/libvfb_render.so \
     vendor/meizu/m1721/proprietary/lib/libvmp_render.so:system/lib/libvmp_render.so \
