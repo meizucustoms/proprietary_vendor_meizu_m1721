@@ -148,6 +148,8 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/etc/cne/wqeclient/VZW/VZW_profile5.xml:system/etc/cne/wqeclient/VZW/VZW_profile5.xml \
     vendor/meizu/m1721/proprietary/etc/cne/wqeclient/VZW/VZW_profile6.xml:system/etc/cne/wqeclient/VZW/VZW_profile6.xml \
     vendor/meizu/m1721/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
+    vendor/meizu/m1721/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
+    vendor/meizu/m1721/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/meizu/m1721/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/meizu/m1721/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/meizu/m1721/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
@@ -250,6 +252,14 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/etc/firmware/modem_config/FA1/FA_Smartfren_sw.mbn:system/etc/firmware/modem_config/FA1/FA_Smartfren_sw.mbn \
     vendor/meizu/m1721/proprietary/etc/firmware/modem_config/FA1/FA_mbn_ota_check_list.txt:system/etc/firmware/modem_config/FA1/FA_mbn_ota_check_list.txt \
     vendor/meizu/m1721/proprietary/etc/firmware/modem_config/FA1/mbn_ota.txt:system/etc/firmware/modem_config/FA1/mbn_ota.txt \
+    vendor/meizu/m1721/proprietary/etc/firmware/mzfacereco.b00:system/etc/firmware/mzfacereco.b00 \
+    vendor/meizu/m1721/proprietary/etc/firmware/mzfacereco.b01:system/etc/firmware/mzfacereco.b01 \
+    vendor/meizu/m1721/proprietary/etc/firmware/mzfacereco.b02:system/etc/firmware/mzfacereco.b02 \
+    vendor/meizu/m1721/proprietary/etc/firmware/mzfacereco.b03:system/etc/firmware/mzfacereco.b03 \
+    vendor/meizu/m1721/proprietary/etc/firmware/mzfacereco.b04:system/etc/firmware/mzfacereco.b04 \
+    vendor/meizu/m1721/proprietary/etc/firmware/mzfacereco.b05:system/etc/firmware/mzfacereco.b05 \
+    vendor/meizu/m1721/proprietary/etc/firmware/mzfacereco.b06:system/etc/firmware/mzfacereco.b06 \
+    vendor/meizu/m1721/proprietary/etc/firmware/mzfacereco.mdt:system/etc/firmware/mzfacereco.mdt \
     vendor/meizu/m1721/proprietary/etc/firmware/mzifaa.b00:system/etc/firmware/mzifaa.b00 \
     vendor/meizu/m1721/proprietary/etc/firmware/mzifaa.b01:system/etc/firmware/mzifaa.b01 \
     vendor/meizu/m1721/proprietary/etc/firmware/mzifaa.b02:system/etc/firmware/mzifaa.b02 \
@@ -276,6 +286,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/etc/firmware/widevine.b05:system/etc/firmware/widevine.b05 \
     vendor/meizu/m1721/proprietary/etc/firmware/widevine.b06:system/etc/firmware/widevine.b06 \
     vendor/meizu/m1721/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
+    vendor/meizu/m1721/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/meizu/m1721/proprietary/etc/permissions/android.hardware.vr.high_performance.xml:system/etc/permissions/android.hardware.vr.high_performance.xml \
     vendor/meizu/m1721/proprietary/etc/permissions/android.hardware.vulkan.level-0.xml:system/etc/permissions/android.hardware.vulkan.level-0.xml \
     vendor/meizu/m1721/proprietary/etc/permissions/android.hardware.vulkan.version-1_0_3.xml:system/etc/permissions/android.hardware.vulkan.version-1_0_3.xml \
@@ -292,6 +303,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/meizu/m1721/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/meizu/m1721/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
+    vendor/meizu/m1721/proprietary/etc/permissions/flyme.face.facerecognition.xml:system/etc/permissions/flyme.face.facerecognition.xml \
     vendor/meizu/m1721/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/meizu/m1721/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/meizu/m1721/proprietary/etc/permissions/lpa.xml:system/etc/permissions/lpa.xml \
@@ -307,6 +319,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/etc/wfdconfig.xml:system/etc/wfdconfig.xml \
     vendor/meizu/m1721/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
     vendor/meizu/m1721/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
+    vendor/meizu/m1721/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/meizu/m1721/proprietary/framework/QPerformance.jar:system/framework/QPerformance.jar \
     vendor/meizu/m1721/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/meizu/m1721/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
@@ -338,6 +351,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
     vendor/meizu/m1721/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/meizu/m1721/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    vendor/meizu/m1721/proprietary/lib/libmeizucamera.so:system/lib/libmeizucamera.so \
     vendor/meizu/m1721/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/meizu/m1721/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/meizu/m1721/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
@@ -385,6 +399,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/lib64/soundfx/libreverbwrapper.so:system/lib64/soundfx/libreverbwrapper.so \
     vendor/meizu/m1721/proprietary/lib64/soundfx/libvisualizer.so:system/lib64/soundfx/libvisualizer.so \
     vendor/meizu/m1721/proprietary/vendor/bin/LKCore:system/vendor/bin/LKCore \
+    vendor/meizu/m1721/proprietary/vendor/bin/facerecod:system/vendor/bin/facerecod \
     vendor/meizu/m1721/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/meizu/m1721/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/meizu/m1721/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
@@ -2238,6 +2253,28 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libscalar.so:system/vendor/lib/libscalar.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
+    vendor/meizu/m1721/proprietary/vendor/lib/libscveBlobDescriptor.so:system/vendor/lib/libscveBlobDescriptor.so \
+    vendor/meizu/m1721/proprietary/vendor/lib/libscveBlobDescriptor_stub.so:system/vendor/lib/libscveBlobDescriptor_stub.so \
+    vendor/meizu/m1721/proprietary/vendor/lib/libscveCleverCapture.so:system/vendor/lib/libscveCleverCapture.so \
+    vendor/meizu/m1721/proprietary/vendor/lib/libscveCleverCapture_stub.so:system/vendor/lib/libscveCleverCapture_stub.so \
+    vendor/meizu/m1721/proprietary/vendor/lib/libscveCommon.so:system/vendor/lib/libscveCommon.so \
+    vendor/meizu/m1721/proprietary/vendor/lib/libscveCommon_stub.so:system/vendor/lib/libscveCommon_stub.so \
+    vendor/meizu/m1721/proprietary/vendor/lib/libscveFaceRecognition.so:system/vendor/lib/libscveFaceRecognition.so \
+    vendor/meizu/m1721/proprietary/vendor/lib/libscveImageCloning.so:system/vendor/lib/libscveImageCloning.so \
+    vendor/meizu/m1721/proprietary/vendor/lib/libscveImageCorrection.so:system/vendor/lib/libscveImageCorrection.so \
+    vendor/meizu/m1721/proprietary/vendor/lib/libscveImageRemoval.so:system/vendor/lib/libscveImageRemoval.so \
+    vendor/meizu/m1721/proprietary/vendor/lib/libscveMotionVector.so:system/vendor/lib/libscveMotionVector.so \
+    vendor/meizu/m1721/proprietary/vendor/lib/libscveObjectMatting.so:system/vendor/lib/libscveObjectMatting.so \
+    vendor/meizu/m1721/proprietary/vendor/lib/libscveObjectMatting_stub.so:system/vendor/lib/libscveObjectMatting_stub.so \
+    vendor/meizu/m1721/proprietary/vendor/lib/libscveObjectSegmentation.so:system/vendor/lib/libscveObjectSegmentation.so \
+    vendor/meizu/m1721/proprietary/vendor/lib/libscveObjectSegmentation_stub.so:system/vendor/lib/libscveObjectSegmentation_stub.so \
+    vendor/meizu/m1721/proprietary/vendor/lib/libscveObjectTracker.so:system/vendor/lib/libscveObjectTracker.so \
+    vendor/meizu/m1721/proprietary/vendor/lib/libscveObjectTracker_stub.so:system/vendor/lib/libscveObjectTracker_stub.so \
+    vendor/meizu/m1721/proprietary/vendor/lib/libscvePanorama.so:system/vendor/lib/libscvePanorama.so \
+    vendor/meizu/m1721/proprietary/vendor/lib/libscvePanorama_lite.so:system/vendor/lib/libscvePanorama_lite.so \
+    vendor/meizu/m1721/proprietary/vendor/lib/libscveTextReco.so:system/vendor/lib/libscveTextReco.so \
+    vendor/meizu/m1721/proprietary/vendor/lib/libscveTextRecoPostProcessing.so:system/vendor/lib/libscveTextRecoPostProcessing.so \
+    vendor/meizu/m1721/proprietary/vendor/lib/libscveTextReco_stub.so:system/vendor/lib/libscveTextReco_stub.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libsdm-color.so:system/vendor/lib/libsdm-color.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libsdm-diag.so:system/vendor/lib/libsdm-diag.so \
@@ -2307,6 +2344,11 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
     vendor/meizu/m1721/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
     vendor/meizu/m1721/proprietary/vendor/lib/rfsa/adsp/libobjectMattingApp_skel.so:system/vendor/lib/rfsa/adsp/libobjectMattingApp_skel.so \
+    vendor/meizu/m1721/proprietary/vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so:system/vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so \
+    vendor/meizu/m1721/proprietary/vendor/lib/rfsa/adsp/libscveCleverCapture_skel.so:system/vendor/lib/rfsa/adsp/libscveCleverCapture_skel.so \
+    vendor/meizu/m1721/proprietary/vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so:system/vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so \
+    vendor/meizu/m1721/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/vendor/lib/rfsa/adsp/libscveT2T_skel.so \
+    vendor/meizu/m1721/proprietary/vendor/lib/rfsa/adsp/libscveTextReco_skel.so:system/vendor/lib/rfsa/adsp/libscveTextReco_skel.so \
     vendor/meizu/m1721/proprietary/vendor/lib/sensor_calibrate.so:system/vendor/lib/sensor_calibrate.so \
     vendor/meizu/m1721/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
     vendor/meizu/m1721/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
@@ -2544,6 +2586,28 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
     vendor/meizu/m1721/proprietary/vendor/lib64/libscalar.so:system/vendor/lib64/libscalar.so \
     vendor/meizu/m1721/proprietary/vendor/lib64/libscale.so:system/vendor/lib64/libscale.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/libscveBlobDescriptor.so:system/vendor/lib64/libscveBlobDescriptor.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/libscveBlobDescriptor_stub.so:system/vendor/lib64/libscveBlobDescriptor_stub.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/libscveCleverCapture.so:system/vendor/lib64/libscveCleverCapture.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/libscveCleverCapture_stub.so:system/vendor/lib64/libscveCleverCapture_stub.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/libscveCommon.so:system/vendor/lib64/libscveCommon.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/libscveCommon_stub.so:system/vendor/lib64/libscveCommon_stub.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/libscveFaceRecognition.so:system/vendor/lib64/libscveFaceRecognition.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/libscveImageCloning.so:system/vendor/lib64/libscveImageCloning.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/libscveImageCorrection.so:system/vendor/lib64/libscveImageCorrection.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/libscveImageRemoval.so:system/vendor/lib64/libscveImageRemoval.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/libscveMotionVector.so:system/vendor/lib64/libscveMotionVector.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/libscveObjectMatting.so:system/vendor/lib64/libscveObjectMatting.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/libscveObjectMatting_stub.so:system/vendor/lib64/libscveObjectMatting_stub.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/libscveObjectSegmentation.so:system/vendor/lib64/libscveObjectSegmentation.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/libscveObjectSegmentation_stub.so:system/vendor/lib64/libscveObjectSegmentation_stub.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/libscveObjectTracker.so:system/vendor/lib64/libscveObjectTracker.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/libscveObjectTracker_stub.so:system/vendor/lib64/libscveObjectTracker_stub.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/libscvePanorama.so:system/vendor/lib64/libscvePanorama.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/libscvePanorama_lite.so:system/vendor/lib64/libscvePanorama_lite.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/libscveTextReco.so:system/vendor/lib64/libscveTextReco.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/libscveTextRecoPostProcessing.so:system/vendor/lib64/libscveTextRecoPostProcessing.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/libscveTextReco_stub.so:system/vendor/lib64/libscveTextReco_stub.so \
     vendor/meizu/m1721/proprietary/vendor/lib64/libsd_sdk_display.so:system/vendor/lib64/libsd_sdk_display.so \
     vendor/meizu/m1721/proprietary/vendor/lib64/libsdm-color.so:system/vendor/lib64/libsdm-color.so \
     vendor/meizu/m1721/proprietary/vendor/lib64/libsdm-diag.so:system/vendor/lib64/libsdm-diag.so \
@@ -2593,6 +2657,27 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
     vendor/meizu/m1721/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/meizu/m1721/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/mmi_audio.so:system/vendor/lib64/mmi_audio.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/mmi_battery.so:system/vendor/lib64/mmi_battery.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/mmi_bluetooth.so:system/vendor/lib64/mmi_bluetooth.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/mmi_cpu.so:system/vendor/lib64/mmi_cpu.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/mmi_flashlight.so:system/vendor/lib64/mmi_flashlight.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/mmi_fm.so:system/vendor/lib64/mmi_fm.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/mmi_gps.so:system/vendor/lib64/mmi_gps.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/mmi_hall.so:system/vendor/lib64/mmi_hall.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/mmi_key.so:system/vendor/lib64/mmi_key.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/mmi_lcd.so:system/vendor/lib64/mmi_lcd.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/mmi_light.so:system/vendor/lib64/mmi_light.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/mmi_memory.so:system/vendor/lib64/mmi_memory.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/mmi_sensor.so:system/vendor/lib64/mmi_sensor.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/mmi_sim.so:system/vendor/lib64/mmi_sim.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/mmi_speaker_calibration.so:system/vendor/lib64/mmi_speaker_calibration.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/mmi_storage.so:system/vendor/lib64/mmi_storage.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/mmi_sysinfo.so:system/vendor/lib64/mmi_sysinfo.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/mmi_touch.so:system/vendor/lib64/mmi_touch.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/mmi_touchext.so:system/vendor/lib64/mmi_touchext.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/mmi_vibrator.so:system/vendor/lib64/mmi_vibrator.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/mmi_wifi.so:system/vendor/lib64/mmi_wifi.so \
     vendor/meizu/m1721/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
     vendor/meizu/m1721/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
     vendor/meizu/m1721/proprietary/vendor/lib64/soundfx/libqcbassboost.so:system/vendor/lib64/soundfx/libqcbassboost.so \
