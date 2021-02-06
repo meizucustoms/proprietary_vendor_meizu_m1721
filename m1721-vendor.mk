@@ -345,6 +345,8 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/meizu/m1721/proprietary/lib/libarcsoft_makeup.so:system/lib/libarcsoft_makeup.so \
     vendor/meizu/m1721/proprietary/lib/libarcsoft_supernight.so:system/lib/libarcsoft_supernight.so \
+    vendor/meizu/m1721/proprietary/lib/libcam.common.meizu.platform.so:system/lib/libcam.common.meizu.platform.so \
+    vendor/meizu/m1721/proprietary/lib/libcam.common.meizu.so:system/lib/libcam.common.meizu.so \
     vendor/meizu/m1721/proprietary/lib/libcamera2ndk.so:system/lib/libcamera2ndk.so \
     vendor/meizu/m1721/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/meizu/m1721/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
