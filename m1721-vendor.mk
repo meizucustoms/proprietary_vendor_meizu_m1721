@@ -76,7 +76,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
     vendor/meizu/m1721/proprietary/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
     vendor/meizu/m1721/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
-    vendor/meizu/m1721/proprietary/etc/svi_config.xml:system/etc/svi_config.xml \
     vendor/meizu/m1721/proprietary/etc/camera/c5490_chromatix.xml:system/etc/camera/c5490_chromatix.xml \
     vendor/meizu/m1721/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
     vendor/meizu/m1721/proprietary/etc/camera/csidtg_camera.xml:system/etc/camera/csidtg_camera.xml \
@@ -303,6 +302,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/etc/permissions/uimremoteclient.xml:system/etc/permissions/uimremoteclient.xml \
     vendor/meizu/m1721/proprietary/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
     vendor/meizu/m1721/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
+    vendor/meizu/m1721/proprietary/etc/svi_config.xml:system/etc/svi_config.xml \
     vendor/meizu/m1721/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/meizu/m1721/proprietary/etc/wfdconfig.xml:system/etc/wfdconfig.xml \
     vendor/meizu/m1721/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
@@ -332,8 +332,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/meizu/m1721/proprietary/lib/libarcsoft_makeup.so:system/lib/libarcsoft_makeup.so \
     vendor/meizu/m1721/proprietary/lib/libarcsoft_supernight.so:system/lib/libarcsoft_supernight.so \
-    vendor/meizu/m1721/proprietary/lib/libcam.common.meizu.platform.so:system/lib/libcam.common.meizu.platform.so \
-    vendor/meizu/m1721/proprietary/lib/libcam.common.meizu.so:system/lib/libcam.common.meizu.so \
     vendor/meizu/m1721/proprietary/lib/libcamera2ndk.so:system/lib/libcamera2ndk.so \
     vendor/meizu/m1721/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/meizu/m1721/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
