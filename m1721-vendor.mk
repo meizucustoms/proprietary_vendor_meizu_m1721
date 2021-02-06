@@ -148,8 +148,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/etc/cne/wqeclient/VZW/VZW_profile5.xml:system/etc/cne/wqeclient/VZW/VZW_profile5.xml \
     vendor/meizu/m1721/proprietary/etc/cne/wqeclient/VZW/VZW_profile6.xml:system/etc/cne/wqeclient/VZW/VZW_profile6.xml \
     vendor/meizu/m1721/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
-    vendor/meizu/m1721/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
-    vendor/meizu/m1721/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/meizu/m1721/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/meizu/m1721/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/meizu/m1721/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
@@ -252,14 +250,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/etc/firmware/modem_config/FA1/FA_Smartfren_sw.mbn:system/etc/firmware/modem_config/FA1/FA_Smartfren_sw.mbn \
     vendor/meizu/m1721/proprietary/etc/firmware/modem_config/FA1/FA_mbn_ota_check_list.txt:system/etc/firmware/modem_config/FA1/FA_mbn_ota_check_list.txt \
     vendor/meizu/m1721/proprietary/etc/firmware/modem_config/FA1/mbn_ota.txt:system/etc/firmware/modem_config/FA1/mbn_ota.txt \
-    vendor/meizu/m1721/proprietary/etc/firmware/mzfacereco.b00:system/etc/firmware/mzfacereco.b00 \
-    vendor/meizu/m1721/proprietary/etc/firmware/mzfacereco.b01:system/etc/firmware/mzfacereco.b01 \
-    vendor/meizu/m1721/proprietary/etc/firmware/mzfacereco.b02:system/etc/firmware/mzfacereco.b02 \
-    vendor/meizu/m1721/proprietary/etc/firmware/mzfacereco.b03:system/etc/firmware/mzfacereco.b03 \
-    vendor/meizu/m1721/proprietary/etc/firmware/mzfacereco.b04:system/etc/firmware/mzfacereco.b04 \
-    vendor/meizu/m1721/proprietary/etc/firmware/mzfacereco.b05:system/etc/firmware/mzfacereco.b05 \
-    vendor/meizu/m1721/proprietary/etc/firmware/mzfacereco.b06:system/etc/firmware/mzfacereco.b06 \
-    vendor/meizu/m1721/proprietary/etc/firmware/mzfacereco.mdt:system/etc/firmware/mzfacereco.mdt \
     vendor/meizu/m1721/proprietary/etc/firmware/mzifaa.b00:system/etc/firmware/mzifaa.b00 \
     vendor/meizu/m1721/proprietary/etc/firmware/mzifaa.b01:system/etc/firmware/mzifaa.b01 \
     vendor/meizu/m1721/proprietary/etc/firmware/mzifaa.b02:system/etc/firmware/mzifaa.b02 \
@@ -303,7 +293,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/meizu/m1721/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/meizu/m1721/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
-    vendor/meizu/m1721/proprietary/etc/permissions/flyme.face.facerecognition.xml:system/etc/permissions/flyme.face.facerecognition.xml \
     vendor/meizu/m1721/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/meizu/m1721/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/meizu/m1721/proprietary/etc/permissions/lpa.xml:system/etc/permissions/lpa.xml \
@@ -401,7 +390,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/lib64/soundfx/libreverbwrapper.so:system/lib64/soundfx/libreverbwrapper.so \
     vendor/meizu/m1721/proprietary/lib64/soundfx/libvisualizer.so:system/lib64/soundfx/libvisualizer.so \
     vendor/meizu/m1721/proprietary/vendor/bin/LKCore:system/vendor/bin/LKCore \
-    vendor/meizu/m1721/proprietary/vendor/bin/facerecod:system/vendor/bin/facerecod \
     vendor/meizu/m1721/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/meizu/m1721/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/meizu/m1721/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
