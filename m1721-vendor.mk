@@ -328,7 +328,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/meizu/m1721/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
     vendor/meizu/m1721/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
-    vendor/meizu/m1721/proprietary/lib/hw/audio.primary.msm8953.so:system/lib/hw/audio.primary.msm8953.so \
     vendor/meizu/m1721/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
     vendor/meizu/m1721/proprietary/lib/libImageClarity.so:system/lib/libImageClarity.so \
     vendor/meizu/m1721/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
@@ -365,7 +364,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/lib/soundfx/libreverbwrapper.so:system/lib/soundfx/libreverbwrapper.so \
     vendor/meizu/m1721/proprietary/lib/soundfx/libvisualizer.so:system/lib/soundfx/libvisualizer.so \
     vendor/meizu/m1721/proprietary/lib64/egl/libGLES_android.so:system/lib64/egl/libGLES_android.so \
-    vendor/meizu/m1721/proprietary/lib64/hw/audio.primary.msm8953.so:system/lib64/hw/audio.primary.msm8953.so \
     vendor/meizu/m1721/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
     vendor/meizu/m1721/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
     vendor/meizu/m1721/proprietary/lib64/libarcsoft_supernight.so:system/lib64/libarcsoft_supernight.so \
