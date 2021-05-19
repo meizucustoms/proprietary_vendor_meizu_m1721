@@ -174,6 +174,9 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/vendor/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pfp.fw \
     vendor/meizu/m1721/proprietary/vendor/firmware/a530_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pm4.fw \
     vendor/meizu/m1721/proprietary/vendor/firmware/cpp_firmware_v1_5_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_0.fw \
+    vendor/meizu/m1721/proprietary/vendor/firmware/crus_gb_config_default.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/crus_gb_config_default.bin \
+    vendor/meizu/m1721/proprietary/vendor/firmware/crus_gb_config_new_tx.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/crus_gb_config_new_tx.bin \
+    vendor/meizu/m1721/proprietary/vendor/firmware/crus_gb_config_new_rx.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/crus_gb_config_new_rx.bin \
     vendor/meizu/m1721/proprietary/vendor/framework/qcrilhook.jar:$(TARGET_COPY_OUT_VENDOR)/framework/qcrilhook.jar \
     vendor/meizu/m1721/proprietary/vendor/framework/QtiTelephonyServicelibrary.jar:$(TARGET_COPY_OUT_VENDOR)/framework/QtiTelephonyServicelibrary.jar \
     vendor/meizu/m1721/proprietary/vendor/framework/qti-vzw-ims-internal.jar:$(TARGET_COPY_OUT_VENDOR)/framework/qti-vzw-ims-internal.jar \
