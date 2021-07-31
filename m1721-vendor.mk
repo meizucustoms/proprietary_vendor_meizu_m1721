@@ -80,6 +80,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
     vendor/meizu/m1721/proprietary/etc/camera/csidtg_camera.xml:system/etc/camera/csidtg_camera.xml \
     vendor/meizu/m1721/proprietary/etc/camera/csidtg_chromatix.xml:system/etc/camera/csidtg_chromatix.xml \
+    vendor/meizu/m1721/proprietary/etc/camera/debugconf.txt:system/etc/camera/debugconf.txt \
     vendor/meizu/m1721/proprietary/etc/camera/imx214_chromatix.xml:system/etc/camera/imx214_chromatix.xml \
     vendor/meizu/m1721/proprietary/etc/camera/imx230_chromatix.xml:system/etc/camera/imx230_chromatix.xml \
     vendor/meizu/m1721/proprietary/etc/camera/imx230_qc2002_chromatix.xml:system/etc/camera/imx230_qc2002_chromatix.xml \
