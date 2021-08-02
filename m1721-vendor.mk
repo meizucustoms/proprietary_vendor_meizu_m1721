@@ -329,27 +329,9 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/meizu/m1721/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
     vendor/meizu/m1721/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
-    vendor/meizu/m1721/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
-    vendor/meizu/m1721/proprietary/lib/libImageClarity.so:system/lib/libImageClarity.so \
     vendor/meizu/m1721/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
-    vendor/meizu/m1721/proprietary/lib/libarcsoft_makeup.so:system/lib/libarcsoft_makeup.so \
-    vendor/meizu/m1721/proprietary/lib/libarcsoft_supernight.so:system/lib/libarcsoft_supernight.so \
-    vendor/meizu/m1721/proprietary/lib/libcam.common.meizu.platform.so:system/lib/libcam.common.meizu.platform.so \
-    vendor/meizu/m1721/proprietary/lib/libcam.common.meizu.so:system/lib/libcam.common.meizu.so \
-    vendor/meizu/m1721/proprietary/lib/libcamera2ndk.so:system/lib/libcamera2ndk.so \
-    vendor/meizu/m1721/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
-    vendor/meizu/m1721/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
-    vendor/meizu/m1721/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
-    vendor/meizu/m1721/proprietary/lib/libfilter_effects.so:system/lib/libfilter_effects.so \
     vendor/meizu/m1721/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/meizu/m1721/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/meizu/m1721/proprietary/lib/libmakeup_style.so:system/lib/libmakeup_style.so \
-    vendor/meizu/m1721/proprietary/lib/libmeizucamera.so:system/lib/libmeizucamera.so \
-    vendor/meizu/m1721/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-    vendor/meizu/m1721/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/meizu/m1721/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/meizu/m1721/proprietary/lib/libphoto_timestamp.so:system/lib/libphoto_timestamp.so \
-    vendor/meizu/m1721/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/meizu/m1721/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/meizu/m1721/proprietary/lib/libvfb_render.so:system/lib/libvfb_render.so \
     vendor/meizu/m1721/proprietary/lib/libvmp_render.so:system/lib/libvmp_render.so \
@@ -367,11 +349,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/lib64/egl/libGLES_android.so:system/lib64/egl/libGLES_android.so \
     vendor/meizu/m1721/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
     vendor/meizu/m1721/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
-    vendor/meizu/m1721/proprietary/lib64/libarcsoft_supernight.so:system/lib64/libarcsoft_supernight.so \
-    vendor/meizu/m1721/proprietary/lib64/libcamera2ndk.so:system/lib64/libcamera2ndk.so \
-    vendor/meizu/m1721/proprietary/lib64/libcamera_client.so:system/lib64/libcamera_client.so \
-    vendor/meizu/m1721/proprietary/lib64/libcamera_metadata.so:system/lib64/libcamera_metadata.so \
-    vendor/meizu/m1721/proprietary/lib64/libcameraservice.so:system/lib64/libcameraservice.so \
     vendor/meizu/m1721/proprietary/lib64/libgf_algo.so:system/lib64/libgf_algo.so \
     vendor/meizu/m1721/proprietary/lib64/libgf_ca.so:system/lib64/libgf_ca.so \
     vendor/meizu/m1721/proprietary/lib64/libgf_hal.so:system/lib64/libgf_hal.so \
@@ -521,9 +498,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/vendor/lib/libadsp_default_listener.so:system/vendor/lib/libadsp_default_listener.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libarcsoft_dualcam_refocus.so:system/vendor/lib/libarcsoft_dualcam_refocus.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libarcsoft_high_dynamic_range.so:system/vendor/lib/libarcsoft_high_dynamic_range.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libarcsoft_low_light_shot.so:system/vendor/lib/libarcsoft_low_light_shot.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libasn1cper.so:system/vendor/lib/libasn1cper.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libasn1crt.so:system/vendor/lib/libasn1crt.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libasn1crtx.so:system/vendor/lib/libasn1crtx.so \
