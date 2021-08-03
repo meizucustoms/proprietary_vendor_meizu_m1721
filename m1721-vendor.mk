@@ -44,7 +44,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/meizu/m1721/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/meizu/m1721/proprietary/bin/radish:system/bin/radish \
-    vendor/meizu/m1721/proprietary/bin/remosaic_daemon:system/bin/remosaic_daemon \
     vendor/meizu/m1721/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/meizu/m1721/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/meizu/m1721/proprietary/bin/test_module_pproc:system/bin/test_module_pproc \
@@ -2205,9 +2204,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/vendor/lib/libqti_performance.so:system/vendor/lib/libqti_performance.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/meizu/m1721/proprietary/vendor/lib/librcc.so:system/vendor/lib/librcc.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libremosaic_daemon.so:system/vendor/lib/libremosaic_daemon.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libremosaic_tuning.so:system/vendor/lib/libremosaic_tuning.so \
-    vendor/meizu/m1721/proprietary/vendor/lib/libremosaiclib.so:system/vendor/lib/libremosaiclib.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libril-qc-ltedirectdisc.so:system/vendor/lib/libril-qc-ltedirectdisc.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libril-qc-radioconfig.so:system/vendor/lib/libril-qc-radioconfig.so \
@@ -2538,9 +2534,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/vendor/lib64/libqti_performance.so:system/vendor/lib64/libqti_performance.so \
     vendor/meizu/m1721/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
     vendor/meizu/m1721/proprietary/vendor/lib64/librcc.so:system/vendor/lib64/librcc.so \
-    vendor/meizu/m1721/proprietary/vendor/lib64/libremosaic_daemon.so:system/vendor/lib64/libremosaic_daemon.so \
-    vendor/meizu/m1721/proprietary/vendor/lib64/libremosaic_tuning.so:system/vendor/lib64/libremosaic_tuning.so \
-    vendor/meizu/m1721/proprietary/vendor/lib64/libremosaiclib.so:system/vendor/lib64/libremosaiclib.so \
     vendor/meizu/m1721/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
     vendor/meizu/m1721/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
     vendor/meizu/m1721/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
